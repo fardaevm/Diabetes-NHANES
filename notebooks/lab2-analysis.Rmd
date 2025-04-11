@@ -1,5 +1,185 @@
 ---
-title: "lab2-analysis"
-output: html_document
+title: "Lab 2 - NHANES A1C Descriptive Analysis"
+author: |
+  Mukhammadali Fardaev  
+  Samuel Dominguez  
+  Umair Habib
+  Vishnu Gorur
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  pdf_document:
+  toc: true
+  toc_depth: 2
+  number_sections: true
+  keep_tex: true
 ---
 
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(caret)
+library(car)
+library(broom)
+library(ggplot2)
+library(lmtest)
+library(sandwich)
+
+```
+
+# 1. Introduction
+
+# 2. Data Loading
+
+```{r setup, include=FALSE}
+nhanes_clean <- read_csv("../data/processed/nhanes_clean.csv")
+glimpse(nhanes_clean)
+```
+
+```{r setup, include=FALSE}
+nhanes_clean <- nhanes_clean %>%
+  mutate(
+    waist_height_ratio = ( waist_cm / height_cm ) * 100
+  )
+
+```
+
+# 3. Data Splitting
+
+```{r setup, include=FALSE}
+set.seed(123)
+train_index <- createDataPartition(nhanes_clean$a1c, p = 0.3, list = FALSE)
+exploratory_df <- nhanes_clean[train_index, ]
+confirmatory_df <- nhanes_clean[-train_index, ]
+```
+
+#### 4. Model Specification
+
+#### 1. IID
+
+#### 2. The Unique BLP Exists
+
+No Perfect Collinearity
+
+E[X\^T X ] is invertible
+
+```{r}
+model_1 <- lm(a1c ~ waist_cm, data = exploratory_df)
+summary(model_1)
+```
+
+```{r}
+ggplot(nhanes_clean, aes(x = waist_cm, y = a1c)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    x = "Waist Circumference (cm)",
+    y = "A1C (%)",
+    title = "Figure 1:Relationship Between Waist Circumference and A1C"
+  )
+```
+
+```         
+```
+
+```{r}
+model_exp <- lm(
+  a1c ~ waist_height_ratio + age + gender + ethnicity + poverty_index, data = exploratory_df)
+
+summary(model_exp)
+```
+
+```{r}
+vif_values <- vif(model_exp)
+vif_values
+```
+
+```{r}
+```
+
+```{r}
+qqnorm(residuals(model_exp))
+qqline(residuals(mod2), col="red")
+```
+
+`{plot(model_exp, which = 1)}`
+
+```{r}
+bptest(model_exp)
+```
+
+```{r}
+coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
+```
+
+# 5. Model Assumptions
+
+```{r model-assumptions, fig.width=8, fig.height=8}
+# Plot all diagnostics in a 2x2 grid
+par(mfrow = c(2, 2))
+plot(model_exp)
+```
+
+```{r}
+# Extract residuals
+residuals_exp <- resid(model_exp)
+
+# Plot histogram
+hist(residuals_exp,
+     breaks = 30,
+     col = "skyblue",
+     main = "Histogram of Residuals",
+     xlab = "Residuals")
+```
+
+```{r}
+# Normality
+shapiro.test(resid(model_exp))
+```
+
+```{r}
+# Multicolinearity
+vif(model_exp)
+```
+
+# 6. Confirmation Model
+
+# 7. Model Comparison
+
+```{r}
+library(lmtest)
+library(sandwich)
+library(stargazer)
+
+# Model 1: univariate
+mod1 <- lm(a1c ~ waist_height_ratio, data = confirmatory_df)
+# Model 2: expanded
+mod2 <- lm(a1c ~ waist_height_ratio + age + gender + ethnicity + poverty_index,
+           data = confirmatory_df)
+
+# Robust SE HC1
+robust1 <- vcovHC(mod1, type = "HC1")  # or HC2/HC3, etc.
+robust2 <- vcovHC(mod2, type = "HC1")
+
+# Robust SE extract
+robust_se1 <- sqrt(diag(robust1))
+robust_se2 <- sqrt(diag(robust2))
+
+# Stargazer
+stargazer(
+  mod1, mod2,
+  type = "text",
+  title = "Final Regression Models of A1C (Robust SE)",
+  dep.var.labels = "A1C",
+  covariate.labels = c(
+    "Waist-Height Ratio", "Age", "Female",
+    "Other Hispanic", "Non-Hisp. White", "Non-Hisp. Black",
+    "Non-Hisp. Asian", "Other/Multi-Racial",
+    "Poverty Index"
+  ),
+  se = list(robust_se1, robust_se2),  
+  omit.stat = c("f", "ser"), 
+  digits = 3
+)
+
+```
