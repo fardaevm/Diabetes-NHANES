@@ -107,9 +107,6 @@ ggplot(nhanes_clean, aes(x = waist_height_ratio, y = a1c)) +
   )
 ```
 
-```         
-```
-
 ```{r}
 model_exp <- lm(
   a1c ~ waist_height_ratio +
@@ -130,6 +127,9 @@ model_exp <- lm(
 )
 
 summary(model_exp)
+```
+
+```{r}
 ```
 
 `{# Robust errors} coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))`
