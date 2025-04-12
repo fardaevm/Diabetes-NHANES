@@ -24,6 +24,8 @@ library(broom)
 library(ggplot2)
 library(lmtest)
 library(sandwich)
+library(moments)
+library(tseries)
 
 ```
 
@@ -41,6 +43,24 @@ nhanes_clean <- nhanes_clean %>%
   mutate(
     waist_height_ratio = ( waist_cm / height_cm ) * 100
   )
+
+```
+
+```{r}
+nhanes_clean$ethnicity <- factor(
+  nhanes_clean$ethnicity,
+  levels = c(
+    "Non-Hispanic White",        
+    "Mexican American",
+    "Other Hispanic",
+    "Non-Hispanic Black",
+    "Non-Hispanic Asian",
+    "Other/Multi-Racial"
+  )
+)
+```
+
+```{r}
 
 ```
 
@@ -64,18 +84,18 @@ No Perfect Collinearity
 E[X\^T X ] is invertible
 
 ```{r}
-model_1 <- lm(a1c ~ waist_cm, data = exploratory_df)
+model_1 <- lm(a1c ~ waist_height_ratio, data = exploratory_df)
 summary(model_1)
 ```
 
 ```{r}
-ggplot(nhanes_clean, aes(x = waist_cm, y = a1c)) +
+ggplot(nhanes_clean, aes(x = waist_height_ratio, y = a1c)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = TRUE) +
   labs(
-    x = "Waist Circumference (cm)",
+    x = "Waist to Height Ratio",
     y = "A1C (%)",
-    title = "Figure 1:Relationship Between Waist Circumference and A1C"
+    title = "Figure 1:Relationship Between Waist/Height Ratio and A1C"
   )
 ```
 
@@ -83,10 +103,18 @@ ggplot(nhanes_clean, aes(x = waist_cm, y = a1c)) +
 ```
 
 ```{r}
-model_exp <- lm(
-  a1c ~ waist_height_ratio + age + gender + ethnicity + poverty_index, data = exploratory_df)
+model_exp <- lm(log(a1c) ~ waist_height_ratio + age + gender + ethnicity + income_poverty_ratio, data = exploratory_df)
 
 summary(model_exp)
+```
+
+```{r}
+# Robust errors
+coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
+```
+
+```{r}
+jarque.bera.test(residuals(model_exp))
 ```
 
 ```{r}
@@ -132,9 +160,7 @@ hist(residuals_exp,
      xlab = "Residuals")
 ```
 
-```{r}
-# Normality
-shapiro.test(resid(model_exp))
+```         
 ```
 
 ```{r}
@@ -152,13 +178,13 @@ library(sandwich)
 library(stargazer)
 
 # Model 1: univariate
-mod1 <- lm(a1c ~ waist_height_ratio, data = confirmatory_df)
+mod1 <- lm(log(a1c) ~ waist_height_ratio, data = confirmatory_df)
 # Model 2: expanded
-mod2 <- lm(a1c ~ waist_height_ratio + age + gender + ethnicity + poverty_index,
+mod2 <- lm(log(a1c) ~ waist_height_ratio + age + gender + ethnicity + income_poverty_ratio,
            data = confirmatory_df)
 
 # Robust SE HC1
-robust1 <- vcovHC(mod1, type = "HC1")  # or HC2/HC3, etc.
+robust1 <- vcovHC(mod1, type = "HC1")  
 robust2 <- vcovHC(mod2, type = "HC1")
 
 # Robust SE extract
@@ -175,7 +201,7 @@ stargazer(
     "Waist-Height Ratio", "Age", "Female",
     "Other Hispanic", "Non-Hisp. White", "Non-Hisp. Black",
     "Non-Hisp. Asian", "Other/Multi-Racial",
-    "Poverty Index"
+    "Income Poverty Ratio"
   ),
   se = list(robust_se1, robust_se2),  
   omit.stat = c("f", "ser"), 

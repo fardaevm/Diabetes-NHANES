@@ -1,4 +1,4 @@
-a1c,bmi,weight_kg,height_cm,waist_cm,age,gender,ethnicity,poverty_index
+a1c,bmi,weight_kg,height_cm,waist_cm,age,gender,ethnicity,income_poverty_ratio
 5.6,27,86.9,179.5,98.3,43,Male,Non-Hispanic Asian,5
 5.6,33.5,101.8,174.2,114.7,66,Male,Non-Hispanic White,5
 6.2,29.7,69.4,152.9,93.5,44,Female,Other Hispanic,1.41
