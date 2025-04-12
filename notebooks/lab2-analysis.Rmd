@@ -107,9 +107,12 @@ ggplot(nhanes_clean, aes(x = waist_height_ratio, y = a1c)) +
   )
 ```
 
+```         
+```
+
 ```{r}
 model_exp <- lm(
-  a1c ~ waist_height_ratio +
+  log(a1c) ~ waist_height_ratio +
     age +
     gender +
     ethnicity +
@@ -130,6 +133,7 @@ summary(model_exp)
 ```
 
 ```{r}
+plot(model_exp, which = 1) 
 ```
 
 `{# Robust errors} coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))`
@@ -147,6 +151,10 @@ vif_values
 
 ```{r}
 bptest(model_exp)
+```
+
+```{r}
+coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
 ```
 
 # 5. Model Assumptions
@@ -169,6 +177,14 @@ hist(residuals_exp,
      xlab = "Residuals")
 ```
 
+```         
+```
+
+```{r}
+# Multicolinearity
+vif(model_exp)
+```
+
 # 6. Confirmation Model
 
 # 7. Model Comparison
@@ -178,33 +194,55 @@ library(lmtest)
 library(sandwich)
 library(stargazer)
 
-# Model 1: univariate
+# Model 1: Univariate (waist-height ratio only)
 mod1 <- lm(log(a1c) ~ waist_height_ratio, data = confirmatory_df)
-# Model 2: expanded
-mod2 <- lm(log(a1c) ~ waist_height_ratio + age + gender + ethnicity + income_poverty_ratio,
+
+# Model 2: Full model with all predictors
+mod2 <- lm(log(a1c) ~ waist_height_ratio + 
+             age +
+             gender +
+             ethnicity +
+             income_poverty_ratio +
+             education_level +
+             family_history +
+             smoking +
+             sleep_hours_weekdays +
+             sleep_hours_weekends +
+             triglycerides +
+             ldl +
+             hdl +
+             insulin,
            data = confirmatory_df)
 
-# Robust SE HC1
-robust1 <- vcovHC(mod1, type = "HC1")  
+# Compute robust standard errors (HC1)
+robust1 <- vcovHC(mod1, type = "HC1")
 robust2 <- vcovHC(mod2, type = "HC1")
 
-# Robust SE extract
+# Extract robust SEs
 robust_se1 <- sqrt(diag(robust1))
 robust_se2 <- sqrt(diag(robust2))
 
-# Stargazer
+# Create table with Stargazer
 stargazer(
   mod1, mod2,
   type = "text",
-  title = "Final Regression Models of A1C (Robust SE)",
-  dep.var.labels = "A1C",
+  title = "Final Regression Models of log(A1C) with Robust Standard Errors",
+  dep.var.labels = "log(A1C)",
   covariate.labels = c(
-    "Waist-Height Ratio", "Age", "Female",
-    "Other Hispanic", "Non-Hisp. White", "Non-Hisp. Black",
-    "Non-Hisp. Asian", "Other/Multi-Racial",
-    "Income Poverty Ratio"
+    "Waist-Height Ratio", 
+    "Age", 
+    "Female",
+    "Mexican American", "Other Hispanic", "Non-Hispanic Black", 
+    "Non-Hispanic Asian", "Other/Multi-Racial",
+    "Income-to-Poverty Ratio", 
+    "Education: 9-11th Grade", "Education: High School/GED", 
+    "Education: Some College/AA", "Education: College Graduate",
+    "Family History: Yes",
+    "Smoking: Every Day", "Smoking: Some Days",
+    "Sleep Hours (Weekdays)", "Sleep Hours (Weekends)",
+    "Triglycerides", "LDL", "HDL", "Insulin"
   ),
-  se = list(robust_se1, robust_se2),  
+  se = list(robust_se1, robust_se2),
   omit.stat = c("f", "ser"), 
   digits = 3
 )
