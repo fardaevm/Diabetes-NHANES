@@ -34,14 +34,14 @@ library(tseries)
 # 2. Data Loading
 
 ```{r setup, include=FALSE}
-nhanes_clean <- read_csv("../data/processed/nhanes_clean.csv")
+nhanes_clean <- read_csv("../new_data/processed/nhanes_clean.csv")
 glimpse(nhanes_clean)
 ```
 
 ```{r setup, include=FALSE}
 nhanes_clean <- nhanes_clean %>%
   mutate(
-    waist_height_ratio = ( waist_cm / height_cm ) * 100
+    waist_height_ratio = ( waist_cm / height_cm )
   )
 
 ```
@@ -61,6 +61,14 @@ nhanes_clean$ethnicity <- factor(
 ```
 
 ```{r}
+nhanes_clean$smoking <- factor(
+  nhanes_clean$smoking,
+  levels = c(
+    "Not at all", 
+    "Every day",
+    "Some days"
+  )
+)
 
 ```
 
@@ -103,15 +111,28 @@ ggplot(nhanes_clean, aes(x = waist_height_ratio, y = a1c)) +
 ```
 
 ```{r}
-model_exp <- lm(log(a1c) ~ waist_height_ratio + age + gender + ethnicity + income_poverty_ratio, data = exploratory_df)
+model_exp <- lm(
+  a1c ~ waist_height_ratio +
+    age +
+    gender +
+    ethnicity +
+    income_poverty_ratio +
+    education_level +
+    family_history +
+    smoking +
+    sleep_hours_weekdays +
+    sleep_hours_weekends +
+    triglycerides +
+    ldl +
+    hdl +
+    insulin,
+  data = exploratory_df
+)
 
 summary(model_exp)
 ```
 
-```{r}
-# Robust errors
-coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
-```
+`{# Robust errors} coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))`
 
 ```{r}
 jarque.bera.test(residuals(model_exp))
@@ -122,22 +143,10 @@ vif_values <- vif(model_exp)
 vif_values
 ```
 
-```{r}
-```
-
-```{r}
-qqnorm(residuals(model_exp))
-qqline(residuals(mod2), col="red")
-```
-
 `{plot(model_exp, which = 1)}`
 
 ```{r}
 bptest(model_exp)
-```
-
-```{r}
-coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
 ```
 
 # 5. Model Assumptions
@@ -158,14 +167,6 @@ hist(residuals_exp,
      col = "skyblue",
      main = "Histogram of Residuals",
      xlab = "Residuals")
-```
-
-```         
-```
-
-```{r}
-# Multicolinearity
-vif(model_exp)
 ```
 
 # 6. Confirmation Model

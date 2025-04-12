@@ -1,0 +1,681 @@
+SEQN,a1c,waist_cm,height_cm,gender,age,ethnicity,income_poverty_ratio,education_level,family_history,smoking,triglycerides,ldl,hdl,insulin,sleep_hours_weekdays,sleep_hours_weekends
+93717,5.1,86.2,174.1,Male,22,Non-Hispanic White,1.49,High school/GED,No,Every day,102,142,53,3.94,8,10
+93738,5.6,102.7,170.2,Male,26,Other Hispanic,5,Some college/AA,No,Not at all,79,90,41,5.57,7,7.5
+93752,5.3,88.6,153.6,Female,73,Non-Hispanic White,3.98,Some college/AA,No,Every day,184,168,60,4.75,5,7
+93755,5.7,94.2,178.5,Female,26,Non-Hispanic Black,2.07,Some college/AA,No,Not at all,63,122,48,20.41,6,10
+93757,5.7,116.4,174.9,Male,63,Non-Hispanic White,2.59,Some college/AA,No,Every day,172,126,48,29.42,6.5,6.5
+93763,5.3,94.1,181.5,Male,40,Non-Hispanic White,3.25,High school/GED,No,Not at all,305,135,33,10.78,5.5,10
+93770,5.5,95.3,172.3,Male,55,Other Hispanic,0.8,Less than 9th grade,No,Every day,47,96,44,9.77,8,8
+93773,4.9,92.2,176,Male,69,Non-Hispanic White,0.39,Some college/AA,No,Not at all,186,57,59,1.97,7,6
+93775,5.4,87.5,150.4,Female,47,Non-Hispanic Asian,3.73,Some college/AA,Yes,Not at all,63,85,70,7.36,7,7
+93780,5.3,104.4,161.7,Female,46,Other/Multi-Racial,1.22,High school/GED,No,Not at all,244,100,46,27.92,7.5,8
+93795,5.6,65.9,168.6,Male,64,Non-Hispanic Black,2.43,9-11th grade,Yes,Every day,73,56,61,6.64,5,7
+93800,5.2,87.8,162.8,Female,80,Non-Hispanic White,2.8,College graduate or above,No,Not at all,57,100,93,5.76,7.5,7.5
+93806,5.7,109.8,176.1,Male,44,Non-Hispanic Asian,1.35,College graduate or above,No,Every day,167,178,35,18.41,5,6
+93811,5.3,90.9,164.2,Male,24,Non-Hispanic Asian,2.94,Some college/AA,No,Some days,101,112,43,10.7,6.5,8
+93837,5.2,117.4,166.8,Female,35,Non-Hispanic White,1.03,High school/GED,No,Some days,50,103,41,5.46,6.5,9
+93840,5.1,86.2,180.7,Male,47,Non-Hispanic Asian,5,College graduate or above,No,Some days,52,103,52,7.24,7,9.5
+93878,5.2,90.5,162.5,Female,59,Non-Hispanic Black,0.79,High school/GED,No,Not at all,74,127,67,10.44,10,10
+93918,5.8,118,192.9,Male,36,Non-Hispanic White,1.63,High school/GED,Yes,Not at all,95,135,50,10.29,8,10
+93950,5.6,101.9,159.5,Male,30,Other Hispanic,3.32,High school/GED,No,Some days,80,136,43,19.81,5,9
+93952,6,117.2,161.7,Female,34,Non-Hispanic White,1.1,Some college/AA,Yes,Not at all,165,94,41,27.42,6,6
+93963,6.1,115.2,173.8,Male,80,Non-Hispanic White,2.07,9-11th grade,No,Not at all,21,52,66,3.35,7,6
+93964,6.4,100.4,172,Male,52,Non-Hispanic Asian,4.81,College graduate or above,No,Not at all,109,120,42,22.85,7,8
+93968,6,98.9,171.8,Male,57,Non-Hispanic Black,2.99,9-11th grade,Yes,Every day,116,128,57,4.09,6,6
+93972,5,107.7,186.3,Male,35,Non-Hispanic White,3.92,Some college/AA,No,Some days,56,74,60,9.15,6.5,10
+94012,5.4,92.5,164.8,Female,25,Other/Multi-Racial,2.15,Some college/AA,No,Every day,120,176,53,10.61,6,8
+94013,5.7,88,174.5,Male,56,Non-Hispanic White,3.85,Some college/AA,No,Not at all,98,121,53,11.94,8,11
+94021,4.9,103,159.8,Female,38,Non-Hispanic White,0.09,Less than 9th grade,No,Not at all,43,71,57,6.67,8,9
+94029,5.3,85.8,166.2,Female,46,Non-Hispanic White,4.15,College graduate or above,No,Not at all,57,161,97,4.04,7,9
+94030,5.2,107.2,193.9,Male,45,Non-Hispanic White,3.98,9-11th grade,No,Not at all,51,106,57,13.54,7,7.5
+94038,5.7,103.1,162.5,Female,59,Mexican American,0.91,College graduate or above,Yes,Some days,163,160,45,16.56,7.5,7.5
+94044,5.1,73.3,157.5,Female,34,Other Hispanic,5,9-11th grade,No,Not at all,24,59,62,3.52,9,8
+94047,6,109.2,162.3,Female,45,Mexican American,2.72,High school/GED,No,Some days,198,121,34,50.05,7,11
+94057,5.7,106,161.5,Female,62,Non-Hispanic White,3.15,9-11th grade,No,Some days,101,134,40,9.89,8,8
+94067,5.8,112.8,166,Male,44,Mexican American,1.22,9-11th grade,No,Not at all,110,145,48,12.17,5,9
+94068,5.1,104.4,181.8,Male,69,Non-Hispanic White,4.93,Some college/AA,No,Not at all,53,119,41,7.68,5.5,5.5
+94097,5.4,125.6,160.1,Female,62,Non-Hispanic White,1.18,High school/GED,No,Not at all,110,131,50,9.53,7.5,4.5
+94105,5.3,97.1,162.7,Female,46,Mexican American,5,Some college/AA,No,Every day,82,124,65,24.37,6.5,9
+94108,5.8,94.3,165,Male,64,Mexican American,1.72,Less than 9th grade,No,Not at all,132,133,39,16.86,7.5,11
+94112,5.4,84.5,162.5,Male,28,Mexican American,1.82,Some college/AA,No,Not at all,52,143,63,4.6,8,8
+94139,5.3,113.2,163.3,Female,49,Other Hispanic,1.15,Some college/AA,No,Every day,62,115,64,7.59,9.5,9.5
+94156,5.5,94.7,150.9,Female,63,Mexican American,5,High school/GED,No,Not at all,155,122,43,16.55,7,7
+94190,5.2,92.7,175.3,Male,43,Non-Hispanic Asian,4.07,Some college/AA,No,Every day,68,81,54,8.06,5,5
+94207,5.5,106.1,166.7,Male,62,Non-Hispanic Black,0.76,9-11th grade,No,Every day,57,142,57,10.59,6,6
+94223,5.6,92.8,167,Female,43,Other Hispanic,0.94,Some college/AA,Yes,Not at all,260,124,35,15.58,7,7
+94247,5.4,127.4,172.1,Male,27,Non-Hispanic White,2.13,High school/GED,No,Not at all,85,84,30,23.46,8,6.5
+94250,5.1,118.3,166.7,Female,23,Non-Hispanic White,3.37,College graduate or above,Yes,Not at all,54,96,55,16.28,7,10
+94251,5.1,81.9,162,Female,22,Non-Hispanic White,2.79,High school/GED,No,Every day,126,116,48,11.43,9,10
+94283,11.1,123.2,162.5,Female,60,Non-Hispanic Black,0.31,High school/GED,No,Not at all,131,114,41,7.78,7,8
+94314,5.5,88.6,171.8,Male,48,Non-Hispanic Asian,1.79,9-11th grade,No,Every day,112,54,50,10.97,8.5,8.5
+94319,5.1,96.3,172.4,Male,44,Non-Hispanic White,5,College graduate or above,No,Not at all,202,183,52,8.69,8,8
+94320,5.4,69.5,179.3,Male,33,Non-Hispanic Black,1.18,High school/GED,Yes,Every day,28,107,69,2.3,6,6
+94324,5.5,102.5,159,Female,50,Non-Hispanic White,5,9-11th grade,No,Not at all,155,95,51,6.34,10.5,12
+94335,5.9,101.2,160.9,Male,69,Non-Hispanic Asian,2.24,9-11th grade,No,Not at all,235,185,51,19.32,10,11
+94376,6.2,111.8,170.9,Male,66,Non-Hispanic Black,2.9,Some college/AA,No,Every day,74,57,57,10.73,9.5,9.5
+94379,5.4,101.5,157.9,Female,24,Non-Hispanic White,2.55,High school/GED,Yes,Not at all,108,123,41,14.69,2,3.5
+94408,6,78.8,173.4,Male,72,Non-Hispanic White,2.59,Some college/AA,No,Every day,50,84,53,9.53,8,8
+94436,5.4,111.3,174.9,Female,31,Non-Hispanic Black,0.82,9-11th grade,No,Every day,74,116,47,18.94,12,11
+94438,6.4,96.3,175.6,Male,80,Other Hispanic,2.88,College graduate or above,No,Not at all,51,119,45,5.59,7,8
+94443,5.4,94.6,157.5,Male,32,Mexican American,2.39,9-11th grade,No,Some days,39,133,55,6.21,9.5,10
+94453,5,97.7,166.4,Female,20,Non-Hispanic White,1.77,Some college/AA,Yes,Every day,110,91,44,15.68,8,11
+94490,5.5,86.8,157.3,Female,64,Non-Hispanic White,1.17,High school/GED,No,Not at all,99,151,72,5.45,7,7
+94497,6.1,101.2,168.6,Male,45,Other/Multi-Racial,0.4,High school/GED,No,Every day,116,131,48,7.67,7,7
+94522,5.6,113,175.2,Male,60,Non-Hispanic Black,0.62,High school/GED,Yes,Every day,56,153,63,6.95,7,7
+94525,5.5,105.5,157.9,Female,66,Non-Hispanic White,1.52,High school/GED,Yes,Not at all,47,102,68,7,9.5,9.5
+94526,5.4,110.7,180.7,Male,37,Non-Hispanic Black,0.2,9-11th grade,No,Some days,101,129,86,8.64,7,8
+94547,6.1,76.1,151.3,Female,67,Non-Hispanic Black,1.81,High school/GED,No,Every day,32,66,86,5.51,5,5
+94571,5.6,97.1,167.4,Female,80,Non-Hispanic White,3.4,Some college/AA,No,Not at all,118,133,69,26.68,9,8.5
+94583,6.1,85.4,168.1,Male,80,Non-Hispanic White,1.19,9-11th grade,No,Every day,79,91,68,4.67,8,8
+94618,5.4,119.2,176.5,Male,49,Non-Hispanic White,4.94,Some college/AA,Yes,Not at all,128,107,42,12.23,6.5,10
+94625,5.6,71.6,173.4,Male,22,Non-Hispanic Black,1.2,9-11th grade,Yes,Every day,102,123,52,6.4,9,8
+94633,5.7,87.8,153.8,Female,68,Non-Hispanic White,5,Some college/AA,No,Not at all,63,128,77,5.05,8,8
+94649,6,124,174.3,Male,67,Non-Hispanic White,2.47,High school/GED,No,Not at all,217,33,53,70.1,7,7
+94651,5.8,120.8,155.5,Female,57,Non-Hispanic White,1.27,High school/GED,Yes,Not at all,126,130,35,5.13,7,7
+94670,6.2,106.9,169.9,Male,60,Non-Hispanic Black,0.81,9-11th grade,No,Not at all,74,97,33,13.23,12,12
+94686,5,97.7,172.5,Female,33,Non-Hispanic White,3.48,High school/GED,Yes,Some days,133,149,53,15.4,9.5,9
+94695,5.7,74.4,165.4,Female,56,Non-Hispanic White,3.4,High school/GED,No,Every day,189,189,53,4.53,6,6
+94760,5.6,79,160.1,Female,74,Non-Hispanic Black,0.91,Some college/AA,No,Not at all,76,126,82,2.87,5,6
+94780,5.7,102.3,165.4,Male,74,Mexican American,5,College graduate or above,No,Not at all,99,107,51,18.53,7,9
+94812,5.7,95.6,168,Male,46,Non-Hispanic Asian,4.58,College graduate or above,No,Some days,243,138,45,16.48,6.5,9
+94835,5.9,118.5,162.5,Female,59,Non-Hispanic White,0.74,High school/GED,No,Not at all,114,139,58,11.57,7,7
+94857,5.1,133.5,171.7,Female,35,Other Hispanic,1.57,Some college/AA,No,Every day,202,171,46,18.14,7,7
+94861,6,115.3,151.9,Female,56,Non-Hispanic Black,1.79,9-11th grade,No,Every day,116,101,54,8.12,8.5,6.5
+94879,5.4,107.2,175.1,Female,48,Other/Multi-Racial,4.08,Some college/AA,No,Not at all,58,112,53,7.53,7.5,8
+94890,5.6,94.8,171.5,Male,57,Non-Hispanic White,1.22,9-11th grade,No,Not at all,325,126,35,13.94,8,8
+94946,10.2,132.5,188.5,Male,23,Non-Hispanic White,1,Some college/AA,Yes,Every day,204,104,33,41.78,10.5,9.5
+94957,5.4,112.4,175.3,Male,43,Non-Hispanic White,2.99,Some college/AA,Yes,Not at all,155,151,53,9.36,5,6
+94970,5,100.1,168.4,Male,55,Mexican American,1.98,Less than 9th grade,No,Some days,383,107,48,9.78,9,8
+94972,5.2,104.8,171.6,Female,39,Non-Hispanic White,1.5,High school/GED,No,Every day,119,89,34,9.24,6,7
+95004,5.7,114.7,185.8,Male,80,Non-Hispanic White,5,High school/GED,No,Not at all,61,85,72,4.69,9,9
+95007,5.1,90.3,162.1,Male,79,Non-Hispanic White,1.58,Less than 9th grade,No,Not at all,67,91,64,2.59,7.5,7.5
+95030,5.8,97.7,173.9,Male,63,Other/Multi-Racial,1.3,Some college/AA,No,Not at all,100,177,38,9.54,5,5
+95044,6.1,122.3,158.9,Female,67,Non-Hispanic White,4.56,College graduate or above,Yes,Not at all,224,222,49,12.85,8,8
+95048,5.2,87.8,176.8,Male,23,Non-Hispanic White,4.62,College graduate or above,No,Not at all,190,106,41,6.51,7,7.5
+95056,5.4,127.1,171.3,Female,34,Other/Multi-Racial,0.98,Some college/AA,Yes,Every day,63,148,48,10.26,7,7
+95091,4.9,94,167.5,Male,62,Non-Hispanic Black,0.95,High school/GED,No,Every day,143,148,79,15.47,8.5,8.5
+95124,5.1,72,176.6,Male,58,Non-Hispanic Black,2.14,9-11th grade,No,Every day,205,88,38,0.71,8,8
+95138,5.7,73.8,153.1,Female,71,Non-Hispanic White,3.65,9-11th grade,Yes,Some days,58,87,77,23.43,10.5,10.5
+95189,5.6,111.6,169.4,Male,66,Non-Hispanic Black,1.44,College graduate or above,No,Not at all,58,115,44,12.54,5.5,10
+95190,5.2,70.2,155.9,Female,28,Mexican American,1.66,Some college/AA,No,Not at all,35,70,71,2.39,9.5,8
+95203,5.3,94.1,178.4,Male,54,Non-Hispanic Black,1.59,Some college/AA,No,Not at all,102,183,60,9.25,10.5,6.5
+95213,5.8,80.4,170.8,Male,25,Mexican American,5,9-11th grade,Yes,Not at all,41,96,62,4.37,6,10.5
+95216,5.8,90,172,Male,50,Non-Hispanic Asian,4.93,College graduate or above,No,Some days,157,134,41,12.63,7,8
+95238,4.9,104.7,177.2,Male,78,Non-Hispanic Black,4.4,High school/GED,No,Not at all,43,172,54,9.41,7,7
+95276,5,110.5,180.1,Male,33,Non-Hispanic White,5,College graduate or above,No,Not at all,40,96,55,7.83,8.5,9.5
+95279,5.5,90.8,174.4,Male,36,Non-Hispanic Asian,1.06,9-11th grade,No,Not at all,215,139,41,10.61,10,9
+95353,6.4,102.5,166.4,Female,39,Mexican American,0.4,Some college/AA,No,Every day,78,53,40,6.6,9,11
+95374,5.1,81.8,161.4,Male,27,Mexican American,1.12,9-11th grade,No,Every day,94,124,63,1.73,7,7
+95394,5.5,100.4,170.8,Male,47,Mexican American,1.96,9-11th grade,No,Every day,112,190,53,5.4,8,10
+95412,5.8,117,179.4,Male,60,Non-Hispanic Black,0.75,High school/GED,Yes,Every day,93,144,68,11.03,6,5
+95422,5.1,104.6,170.8,Female,39,Non-Hispanic White,4.47,College graduate or above,No,Not at all,43,105,60,10.29,6.5,6.5
+95448,5.8,120.1,165.4,Male,80,Non-Hispanic White,2.74,High school/GED,No,Not at all,120,80,44,21.55,6,6
+95455,5.8,108.6,162.7,Male,47,Other Hispanic,1.24,Less than 9th grade,No,Not at all,139,118,43,9.1,7,7
+95469,5.1,77,177,Male,28,Non-Hispanic White,2.18,College graduate or above,No,Not at all,56,82,66,3.49,7,9
+95473,5.1,83.5,184.1,Male,36,Non-Hispanic White,1.76,9-11th grade,No,Every day,104,59,57,3.11,6,6
+95479,5,77.4,163.5,Female,57,Non-Hispanic White,5,Some college/AA,No,Not at all,49,82,72,2.7,7,7
+95495,4.9,108.4,166.6,Male,75,Non-Hispanic White,1.49,Some college/AA,No,Not at all,159,143,49,12.54,5,5
+95505,5.3,82.7,171,Male,29,Non-Hispanic White,3.76,College graduate or above,No,Every day,77,100,76,2.59,7,10.5
+95506,5.5,98.3,165.7,Male,48,Non-Hispanic Asian,5,College graduate or above,No,Every day,94,84,51,3.7,7,8
+95508,5.7,103.6,193.1,Male,63,Non-Hispanic Black,1.2,9-11th grade,No,Not at all,70,173,57,5.69,8.5,10
+95531,5.4,112.5,177.6,Male,58,Non-Hispanic White,5,College graduate or above,No,Not at all,71,120,72,15.47,8,9.5
+95575,5.9,81.2,178.1,Male,64,Non-Hispanic Black,3.29,High school/GED,No,Not at all,96,81,59,1.2,8,14
+95583,5.9,97.7,157.8,Female,69,Mexican American,2.46,High school/GED,No,Not at all,146,62,52,9.51,8.5,8.5
+95590,5.9,97.9,170.6,Male,61,Other Hispanic,5,High school/GED,No,Not at all,140,136,36,17.98,5,5
+95599,5,112.2,186,Male,47,Non-Hispanic White,1.48,Some college/AA,No,Not at all,55,130,50,6.25,7,7
+95602,5.1,105.4,168.1,Male,21,Mexican American,1.11,High school/GED,No,Not at all,743,78,29,14.46,7.5,10
+95611,5,76.1,177.2,Male,53,Other/Multi-Racial,0.25,High school/GED,No,Every day,102,122,69,5.58,7.5,7.5
+95622,5.1,81.8,167.4,Female,42,Non-Hispanic White,2.56,9-11th grade,No,Every day,57,109,52,3.73,7,6
+95625,5.2,82.6,177.2,Male,43,Non-Hispanic Asian,4.08,Some college/AA,Yes,Not at all,38,159,97,5.18,6.5,7
+95664,5.3,115.2,188,Male,47,Non-Hispanic White,1.08,Some college/AA,No,Every day,102,88,26,6.13,8,6
+95668,5.5,107.2,165.6,Female,68,Mexican American,0.69,College graduate or above,No,Not at all,109,94,60,7.15,9.5,8.5
+95671,5.4,98.3,151.8,Female,66,Mexican American,4,Some college/AA,Yes,Not at all,102,160,69,5.59,8.5,9
+95673,5.7,89.4,166.2,Male,80,Non-Hispanic Black,2.77,High school/GED,No,Every day,86,92,46,5.38,10,11
+95685,5.6,134.9,170.4,Male,30,Non-Hispanic White,0.91,High school/GED,Yes,Not at all,134,100,37,44.22,6,5
+95690,7.4,93.7,169.4,Male,54,Non-Hispanic Asian,1.97,High school/GED,No,Every day,355,151,30,11.24,8,8
+95708,5.4,117.1,185.5,Male,52,Non-Hispanic White,5,9-11th grade,No,Not at all,143,184,45,4.51,7,9
+95718,5.7,97.4,172.5,Male,63,Non-Hispanic White,1.22,9-11th grade,No,Every day,136,117,41,5.93,9,9
+95719,5.2,75.2,173,Male,22,Non-Hispanic White,1.35,Some college/AA,No,Not at all,60,76,46,3.92,9,9
+95720,5.5,86,167.8,Female,59,Non-Hispanic White,3.22,Some college/AA,No,Not at all,50,164,78,5.54,8,8
+95736,5.6,89.7,188.2,Male,58,Non-Hispanic White,0.58,High school/GED,No,Every day,91,95,56,5.12,6.5,6.5
+95765,5.7,90.1,157.7,Male,51,Mexican American,0.41,9-11th grade,No,Not at all,479,132,49,8.61,8,8
+95768,4.8,81.6,163.5,Male,23,Other Hispanic,3.19,Some college/AA,No,Not at all,72,120,68,6.79,6.5,7.5
+95771,6.9,116.5,163.7,Female,63,Non-Hispanic Black,4.16,College graduate or above,Yes,Not at all,130,93,43,20.29,6.5,7.5
+95780,5.4,92.4,151.4,Female,78,Mexican American,1.97,High school/GED,No,Not at all,147,115,45,12.37,8,9
+95785,5.1,95.4,172.9,Male,51,Non-Hispanic White,0.28,Some college/AA,Yes,Every day,217,114,58,7.84,8,7.5
+95794,6,83.2,170.9,Male,63,Non-Hispanic Asian,3.39,College graduate or above,Yes,Every day,96,89,65,17.25,10,8.5
+95799,5.2,88.5,168,Female,25,Non-Hispanic White,1.63,Some college/AA,No,Not at all,34,95,100,6.06,8,9
+95846,5.6,89.2,171.7,Male,80,Non-Hispanic Black,1.52,9-11th grade,No,Not at all,68,137,65,12.43,10.5,10.5
+95866,6,102,160.7,Female,80,Mexican American,2.32,High school/GED,No,Not at all,71,89,78,6.52,8,8
+95867,5.7,124,161.4,Female,34,Non-Hispanic White,1.27,Some college/AA,Yes,Every day,123,117,25,25.05,8,8
+95881,5.1,85.3,158.4,Female,64,Mexican American,3.29,Some college/AA,Yes,Not at all,67,202,84,3.23,7,7
+95883,5.4,143.6,167.6,Female,31,Mexican American,4.56,College graduate or above,No,Some days,180,111,41,40.89,8.5,9
+95891,5.6,94.5,175.2,Male,56,Non-Hispanic White,3.85,Some college/AA,No,Every day,101,116,58,3.59,6,6
+95915,5.6,123.4,169.8,Male,57,Non-Hispanic White,4.48,Some college/AA,No,Not at all,324,147,41,14.18,7.5,8
+95919,5.3,149,182.2,Male,47,Non-Hispanic White,0.63,Some college/AA,Yes,Not at all,168,53,33,43.9,6,6
+95922,5.1,90.1,174.4,Male,25,Non-Hispanic White,3.31,High school/GED,No,Not at all,52,54,75,4.62,7,10
+95950,5.1,85,181.5,Male,45,Non-Hispanic White,1.78,Some college/AA,No,Every day,39,138,59,1.97,6,9
+95968,5.7,71,157.5,Female,49,Non-Hispanic Asian,1.67,College graduate or above,No,Not at all,40,84,71,3.4,7.5,8
+95977,5.4,81.3,178.4,Female,26,Non-Hispanic Black,0.31,Some college/AA,No,Every day,56,120,98,7.72,4,8
+95990,4.7,79.6,167.5,Female,28,Non-Hispanic White,3.28,Some college/AA,Yes,Not at all,65,89,64,6.83,7,10.5
+96008,5.8,99.3,178.8,Male,52,Non-Hispanic Black,5,Some college/AA,No,Not at all,38,129,67,7.1,6,6
+96033,5.5,111.2,159.8,Female,60,Non-Hispanic Black,0.73,Some college/AA,Yes,Every day,141,79,32,11.41,10,12
+96048,4.2,94.5,160.7,Male,47,Other Hispanic,0.29,Less than 9th grade,No,Every day,361,129,34,6.11,9,9
+96049,5.7,102.6,165.1,Male,69,Other Hispanic,1.4,Some college/AA,No,Not at all,56,140,73,6.11,8,11
+96064,5.5,87.8,174.4,Male,49,Non-Hispanic Asian,5,College graduate or above,No,Not at all,128,144,46,4.35,10,9.5
+96074,4.9,120.7,171.4,Female,34,Non-Hispanic White,4.78,College graduate or above,No,Not at all,48,96,55,15.86,6.5,7.5
+96086,6,117,172.9,Male,65,Non-Hispanic White,3.08,High school/GED,Yes,Not at all,200,100,30,21.69,7.5,7.5
+96097,5.2,100.5,179.6,Male,58,Non-Hispanic White,0,9-11th grade,No,Every day,80,128,45,9.21,9,6
+96112,5.9,132.8,167.7,Male,73,Non-Hispanic White,1.49,Some college/AA,No,Not at all,333,66,41,321.64,5.5,5.5
+96222,5.4,88.9,161.4,Female,40,Non-Hispanic White,0.73,Some college/AA,Yes,Every day,56,69,69,3.86,8.5,9.5
+96226,5.7,99.7,175.3,Male,31,Non-Hispanic Black,2.89,Some college/AA,No,Every day,32,68,59,8.18,5.5,4
+96237,5.5,89.3,160.8,Female,58,Non-Hispanic White,1.37,High school/GED,Yes,Every day,99,127,122,5.38,12,10.5
+96250,5.4,106.1,172.6,Male,42,Non-Hispanic White,5,College graduate or above,Yes,Not at all,75,163,50,22.98,9,8
+96283,5.2,98.9,182.1,Male,46,Non-Hispanic White,4.15,Some college/AA,No,Not at all,495,138,54,4.09,7,7
+96296,5.9,86.3,154.5,Female,72,Non-Hispanic White,1.28,9-11th grade,No,Every day,172,216,44,6.37,7.5,7.5
+96308,5.7,106.5,165.2,Male,53,Mexican American,0.12,Less than 9th grade,No,Not at all,281,162,38,18.51,9,10
+96312,4.8,91,154.9,Female,31,Non-Hispanic White,2.08,Some college/AA,No,Not at all,101,148,45,10.18,9,10
+96317,6,130.8,176,Male,68,Non-Hispanic Black,3.67,College graduate or above,No,Some days,31,74,46,15.77,8.5,8.5
+96325,5.3,94.2,148.2,Female,26,Other/Multi-Racial,2.38,Some college/AA,No,Not at all,56,101,47,11.31,7.5,8
+96332,5.5,74,179,Male,49,Non-Hispanic White,1.99,High school/GED,No,Every day,41,114,42,3.73,8,7.5
+96348,5.4,81.2,187.7,Male,54,Other/Multi-Racial,1.27,9-11th grade,No,Every day,50,123,44,7.65,6,9
+96357,5.8,99.1,174.6,Male,69,Non-Hispanic Black,1.75,College graduate or above,No,Not at all,101,206,54,9.15,7,7
+96368,5.4,124.4,157.9,Female,31,Other/Multi-Racial,5,Some college/AA,Yes,Every day,202,54,47,9.28,9,11
+96413,6,110.4,179.8,Male,71,Non-Hispanic Black,3.46,Some college/AA,No,Not at all,46,80,45,20.06,9,9
+96415,5.1,99.2,176.4,Male,36,Other Hispanic,2.39,College graduate or above,No,Not at all,54,74,41,4.33,7,7
+96432,5.7,78.1,160.7,Female,47,Other/Multi-Racial,5,College graduate or above,No,Every day,133,153,47,15.51,8,8
+96433,5.3,119.3,160.7,Female,35,Non-Hispanic White,2.44,Some college/AA,No,Not at all,149,132,41,8.42,9,9
+96477,5.6,126.4,176.6,Male,65,Non-Hispanic Black,1.08,Some college/AA,No,Not at all,70,124,41,15.33,6,5
+96505,5.2,133.4,168,Female,40,Other/Multi-Racial,0.59,High school/GED,No,Every day,86,107,53,17.14,9,11
+96517,5.5,96.6,168,Female,54,Non-Hispanic White,0.72,High school/GED,No,Every day,67,126,63,13.66,11.5,11
+96525,5.6,98.1,172.2,Male,80,Non-Hispanic White,2.15,9-11th grade,No,Not at all,302,157,39,10.66,9,9
+96548,5.1,94.3,171.5,Female,28,Mexican American,2.62,Some college/AA,Yes,Some days,77,102,47,12.59,8,8
+96554,5.4,132.2,192.5,Male,31,Non-Hispanic Black,0.74,Some college/AA,No,Some days,71,127,56,31.77,5,5
+96560,5.6,73.8,173.3,Male,71,Non-Hispanic Black,2.1,9-11th grade,No,Every day,33,64,70,2.84,7,8
+96566,5.1,96.5,183.7,Male,23,Non-Hispanic White,0,Some college/AA,No,Not at all,119,144,44,11.48,8,9.5
+96576,6.2,102.5,170.1,Male,56,Non-Hispanic White,0.86,High school/GED,No,Not at all,89,112,34,19.02,7.5,11
+96593,5.2,94,177.4,Male,30,Non-Hispanic White,5,Some college/AA,No,Every day,158,143,40,7.84,9,10
+96600,5.4,111.1,155.8,Female,25,Non-Hispanic Black,2.73,Some college/AA,No,Some days,31,80,50,9.11,6,8
+96602,6.1,106.3,168.4,Male,80,Non-Hispanic White,5,Less than 9th grade,Yes,Not at all,39,48,58,3.68,8,9
+96633,5.3,92.3,171.8,Male,65,Non-Hispanic Black,0.15,9-11th grade,Yes,Every day,96,137,58,3.08,6,6
+96638,5.5,96.5,175.3,Male,58,Non-Hispanic White,3.32,College graduate or above,No,Every day,55,95,78,9.13,7.5,9
+96639,6,96.7,159.9,Male,78,Other Hispanic,1.54,9-11th grade,No,Not at all,86,112,41,7.64,5,5
+96641,5.5,89.4,190.5,Male,35,Other/Multi-Racial,1.06,Some college/AA,No,Every day,131,108,51,2.48,6,6
+96642,5.5,85.3,159.6,Male,67,Mexican American,0.83,Less than 9th grade,No,Not at all,141,138,48,1.81,7,7
+96667,6,126.5,165.2,Male,69,Mexican American,1.64,9-11th grade,Yes,Not at all,35,177,55,8.44,8.5,8.5
+96672,5.2,89.9,173,Male,32,Non-Hispanic Asian,5,College graduate or above,Yes,Not at all,202,156,34,15.98,6.5,9
+96700,5.7,106.4,172.4,Male,68,Non-Hispanic White,0.59,High school/GED,No,Not at all,150,119,57,25.25,9,9
+96701,5.3,84.9,166.4,Male,74,Other Hispanic,0.84,9-11th grade,No,Not at all,101,105,45,5.44,10,11
+96704,5.8,95.5,160.6,Female,80,Non-Hispanic Black,1.98,9-11th grade,No,Not at all,65,81,53,8.82,4.5,4.5
+96705,5.6,91.7,166,Male,40,Non-Hispanic White,5,College graduate or above,No,Not at all,147,127,56,6.29,6,7.5
+96719,6,128.3,169.7,Female,50,Non-Hispanic Black,0.95,High school/GED,No,Every day,72,102,45,21.48,8,14
+96720,6,115,167.6,Male,80,Non-Hispanic White,2.43,Some college/AA,No,Not at all,114,57,35,18.08,9,8
+96721,6.6,136.6,167,Female,32,Mexican American,5,High school/GED,No,Not at all,224,110,32,27.62,7,9.5
+96743,6.1,135.8,185.2,Male,33,Non-Hispanic White,1.91,9-11th grade,No,Some days,45,77,42,17.06,5,10
+96750,6,116,146.1,Female,53,Non-Hispanic White,0.71,Less than 9th grade,No,Not at all,319,171,32,12.58,9,10
+96756,5,99.4,163.2,Female,23,Non-Hispanic White,1.2,Some college/AA,No,Not at all,49,97,80,29.44,7,8
+96810,4.7,85.4,153.1,Female,39,Non-Hispanic Asian,2.89,College graduate or above,Yes,Not at all,60,101,51,8.26,7,8
+96826,5.2,96.8,176.8,Male,29,Non-Hispanic Asian,2.43,High school/GED,No,Every day,124,88,36,6.86,8.5,9
+96839,5.6,130.7,171.6,Female,22,Other/Multi-Racial,5,Some college/AA,Yes,Not at all,70,112,35,44.88,8,8
+96841,5.5,87.1,173.3,Male,74,Non-Hispanic White,1.37,High school/GED,No,Not at all,79,122,57,5.45,7,7
+96844,7.1,89.7,176.7,Male,55,Non-Hispanic Asian,2.44,Some college/AA,No,Not at all,298,131,38,30.48,5.5,5.5
+96865,5.5,78.5,172.5,Female,28,Non-Hispanic Black,1.13,Some college/AA,No,Not at all,33,65,60,3.05,6,10
+96885,5.9,105,168.2,Male,24,Mexican American,0.48,Less than 9th grade,No,Not at all,57,94,50,14.25,9,8
+96890,4.2,75,175.9,Male,20,Non-Hispanic Black,0.74,High school/GED,No,Every day,65,87,49,6.38,11,11
+96902,6,90.4,169.8,Male,75,Non-Hispanic White,4.56,Some college/AA,No,Not at all,233,99,48,15.18,9,10
+96907,5,117,171.6,Female,35,Non-Hispanic White,3.92,Some college/AA,No,Not at all,89,105,63,12.19,5,7.5
+96927,5.4,116.4,176.4,Male,70,Non-Hispanic White,3.34,College graduate or above,No,Not at all,156,140,38,9.91,8.5,8.5
+96934,4.8,69.1,160.6,Female,55,Non-Hispanic Black,0.04,Some college/AA,Yes,Every day,98,102,77,6.3,10,10
+96939,5.5,92.1,158,Female,32,Non-Hispanic White,0.71,High school/GED,No,Every day,43,122,38,5.04,4.5,7
+96978,5.9,94.7,180.5,Male,60,Non-Hispanic Black,1.79,Some college/AA,No,Every day,98,123,71,7.57,7,5
+97011,4.6,90.2,157.7,Female,26,Non-Hispanic White,5,Some college/AA,No,Every day,53,96,43,10.87,8.5,8.5
+97013,5.3,106.2,162.6,Male,50,Mexican American,0.1,9-11th grade,No,Every day,154,155,73,17.99,8,8
+97023,4.7,75,155.7,Female,80,Mexican American,0.97,Less than 9th grade,No,Not at all,110,36,54,1.27,6.5,6.5
+97031,5.2,103.4,169.6,Male,70,Non-Hispanic Black,4.16,9-11th grade,No,Not at all,35,39,52,6.18,5,7
+97032,5.3,96.4,182.3,Male,50,Non-Hispanic White,5,High school/GED,No,Not at all,172,106,41,11.98,6.5,8
+97034,5.2,80.6,162,Female,31,Non-Hispanic White,1.44,Some college/AA,No,Every day,56,126,57,4.6,8,8
+97046,6.3,111,189.1,Male,61,Non-Hispanic Black,1.82,Some college/AA,No,Not at all,106,161,63,19.45,9,7.5
+97048,5.2,96.6,159,Female,34,Non-Hispanic Black,0.62,Some college/AA,No,Every day,43,140,54,11.13,7.5,8.5
+97063,5.5,71.3,171.3,Male,51,Non-Hispanic Black,4.81,High school/GED,No,Every day,78,159,54,0.71,3,9
+97088,5.7,103.5,184.4,Male,60,Non-Hispanic White,0,Some college/AA,No,Every day,43,67,54,5.36,7.5,9
+97095,5.6,101.8,161.3,Female,44,Other/Multi-Racial,3.49,Some college/AA,No,Every day,150,114,55,6.11,8,12
+97108,6,102.7,164.9,Male,51,Non-Hispanic Asian,5,College graduate or above,No,Not at all,135,99,46,27.52,6,8
+97166,5,92,156.6,Female,40,Mexican American,1.09,9-11th grade,No,Not at all,150,112,56,17.98,6,11
+97201,4.8,76.4,175,Male,60,Non-Hispanic Black,0.16,High school/GED,No,Every day,46,83,67,3.36,6.5,8
+97204,5.6,107.2,155.7,Female,80,Non-Hispanic White,3.33,Some college/AA,No,Not at all,132,220,65,4,10,10
+97206,5.1,97.8,183.4,Male,69,Non-Hispanic White,5,College graduate or above,Yes,Not at all,42,121,72,7.59,8,8
+97229,5.6,92.5,157.9,Female,80,Non-Hispanic White,2.71,College graduate or above,No,Not at all,62,131,89,3.89,12,12
+97231,5.9,98,155.5,Female,27,Non-Hispanic Asian,2.94,Some college/AA,No,Some days,183,120,37,81.53,4.5,9
+97247,5.3,103.5,179.1,Male,45,Mexican American,3.38,High school/GED,No,Not at all,73,91,59,6.65,8.5,9
+97270,5.2,96.6,156.3,Female,36,Non-Hispanic Black,0.28,9-11th grade,No,Not at all,78,119,34,9.84,4.5,13
+97272,5.8,95,165.9,Female,80,Non-Hispanic Black,0.97,9-11th grade,No,Not at all,73,50,41,11.14,10,9
+97275,5.3,78.8,172.6,Female,39,Non-Hispanic Black,1.07,High school/GED,Yes,Every day,16,57,89,2.4,7,10
+97284,5.3,92.8,166.7,Female,52,Non-Hispanic White,0.75,Some college/AA,Yes,Every day,115,124,71,2.2,8,8
+97293,5.6,91.7,153,Female,27,Mexican American,1.2,College graduate or above,No,Not at all,121,126,59,7.6,6,6
+97299,5.7,110.1,183.1,Male,59,Non-Hispanic White,2.47,College graduate or above,No,Some days,160,116,32,16.02,8,7
+97304,5.5,114.7,161.1,Female,26,Mexican American,0.59,High school/GED,No,Not at all,193,113,35,13.5,7,11
+97305,5.4,102,176.1,Male,64,Non-Hispanic White,5,High school/GED,No,Not at all,57,141,42,5.04,7.5,8.5
+97320,5.5,80.4,178.1,Male,65,Non-Hispanic Black,2.16,Some college/AA,No,Every day,106,77,86,5.09,6,10
+97326,6.1,99.7,177.2,Male,64,Non-Hispanic Asian,1.79,Some college/AA,No,Every day,96,133,40,5.2,7,7
+97332,5.4,77.5,156.2,Female,80,Non-Hispanic White,1.67,High school/GED,No,Every day,102,112,53,4.33,8.5,8.5
+97334,5.3,92,156.3,Female,72,Non-Hispanic White,5,Some college/AA,No,Not at all,89,52,64,12.62,10.5,9
+97338,5.5,115.2,170.7,Female,37,Other/Multi-Racial,0.59,High school/GED,No,Every day,86,133,44,31.56,8,8
+97353,5.5,85.4,170.7,Male,80,Non-Hispanic White,1.66,College graduate or above,No,Not at all,43,160,72,5.64,9.5,8.5
+97357,5.4,128.8,165.3,Male,62,Non-Hispanic Black,1.57,High school/GED,No,Not at all,73,130,66,11.06,9,8
+97367,6.2,108.4,168.4,Female,61,Non-Hispanic White,3.04,High school/GED,No,Every day,74,90,66,2.95,7.5,7.5
+97381,5.8,131.5,174.4,Male,69,Non-Hispanic Black,5,High school/GED,No,Not at all,108,159,62,11.42,6,8
+97422,5.8,83.7,160.3,Male,80,Non-Hispanic White,2.19,Less than 9th grade,No,Not at all,66,98,82,6.22,7,7
+97428,5.9,114.3,166.2,Male,77,Non-Hispanic White,1.42,Some college/AA,No,Not at all,158,88,46,26.32,11,11
+97443,5.6,97.8,166.8,Female,56,Non-Hispanic White,0.16,Some college/AA,No,Not at all,58,190,90,8.44,8,8
+97463,5.2,66.3,161.5,Female,34,Non-Hispanic Asian,5,College graduate or above,No,Every day,55,81,62,9.53,6.5,6.5
+97468,5.6,86.8,175,Male,46,Non-Hispanic White,2.41,Some college/AA,No,Every day,57,76,44,5.17,7.5,7.5
+97485,5.1,86.6,168.2,Female,33,Non-Hispanic White,5,College graduate or above,Yes,Not at all,45,106,70,5.78,6.5,6.5
+97510,5.8,108.7,166.1,Female,61,Non-Hispanic Black,1.57,Some college/AA,No,Not at all,97,99,61,15.18,5.5,5.5
+97520,5.7,125.3,163.2,Female,57,Non-Hispanic Black,3.11,High school/GED,No,Not at all,111,154,50,41.03,9.5,13
+97535,5.8,100.8,156.7,Female,63,Other Hispanic,5,Some college/AA,Yes,Not at all,124,91,68,19.75,9,9.5
+97536,4.9,99,165.2,Male,80,Non-Hispanic White,0.62,9-11th grade,No,Not at all,70,111,63,2.89,10.5,10.5
+97578,5.8,84.7,157.8,Male,41,Mexican American,1.14,Less than 9th grade,No,Not at all,91,134,54,6.57,7,10
+97580,5,89.1,167.1,Male,26,Mexican American,2.99,Some college/AA,Yes,Not at all,83,107,72,4.78,7.5,9
+97585,5.1,94,168.4,Male,21,Non-Hispanic White,5,College graduate or above,No,Not at all,31,90,51,7.12,7,7.5
+97595,5.1,76,179.1,Male,36,Other/Multi-Racial,5,College graduate or above,No,Some days,249,148,48,4.83,7,9
+97605,5.8,92.6,162.8,Female,67,Non-Hispanic White,2.49,Some college/AA,No,Every day,255,138,40,7.91,7,8
+97618,5.3,107.1,178.1,Male,64,Mexican American,5,College graduate or above,No,Not at all,82,148,66,7.83,8.5,8.5
+97638,5.6,93.3,176.5,Male,51,Non-Hispanic Black,0.82,High school/GED,No,Not at all,100,120,34,6.36,8,8
+97642,5.9,117.5,167,Male,74,Non-Hispanic White,2.3,High school/GED,No,Not at all,63,74,66,23.77,7,7
+97659,5.6,94.8,161.1,Male,46,Other Hispanic,0.1,High school/GED,Yes,Every day,78,127,38,4.84,5,5
+97666,6,110.9,166.9,Male,69,Non-Hispanic Black,5,College graduate or above,No,Every day,119,117,43,22.23,9,9
+97667,6,137,158.6,Female,62,Non-Hispanic Black,0.87,9-11th grade,No,Every day,149,172,45,17.51,8,11
+97676,6,91.5,160.8,Male,63,Non-Hispanic Asian,5,College graduate or above,No,Every day,98,86,64,29.09,10,10
+97703,5.3,98.3,159.1,Male,35,Other Hispanic,1.82,Less than 9th grade,No,Not at all,87,172,58,7.7,7,9
+97708,5.8,103.6,168.9,Male,76,Non-Hispanic Black,3.29,Some college/AA,No,Not at all,35,63,70,9.64,6.5,7
+97709,5.5,110.4,160.3,Female,22,Non-Hispanic White,2.01,High school/GED,No,Some days,37,50,51,9.28,9,10
+97735,5.3,111.3,176.4,Male,30,Mexican American,1.98,High school/GED,No,Some days,140,82,42,10.09,5.5,10
+97737,5,88.8,177.1,Male,57,Non-Hispanic White,5,Some college/AA,No,Not at all,75,140,73,1.75,8,8
+97741,5.3,78.7,160.1,Female,36,Non-Hispanic White,1.91,Some college/AA,No,Some days,28,98,63,6.01,7.5,9
+97768,5.3,96.8,161.7,Female,56,Other/Multi-Racial,1.18,Some college/AA,No,Not at all,89,145,56,9.62,9,8
+97787,5.9,89.2,176.6,Male,52,Other/Multi-Racial,1.99,Some college/AA,No,Not at all,78,97,61,5.65,7.5,7.5
+97788,5.6,99.6,158.3,Male,73,Other/Multi-Racial,4.8,Some college/AA,No,Not at all,171,125,43,6.68,5,5
+97801,5.4,97.7,179.3,Male,80,Non-Hispanic White,5,College graduate or above,No,Not at all,203,125,35,11.09,8,8
+97813,5.5,114,165,Female,60,Non-Hispanic White,1.79,Some college/AA,No,Not at all,190,202,59,13.9,8,9
+97827,6.1,101.4,171.1,Male,50,Non-Hispanic Asian,5,College graduate or above,No,Not at all,373,85,49,5.52,7,7
+97847,5.2,80.4,158.8,Female,65,Non-Hispanic White,4.62,Some college/AA,No,Not at all,118,113,86,4.35,10,10
+97869,6.2,106.2,170.2,Female,80,Non-Hispanic White,2.55,High school/GED,No,Not at all,172,82,54,13.35,5,5
+97896,6,83.7,157.2,Female,57,Other/Multi-Racial,2.03,9-11th grade,No,Every day,203,252,35,6.02,6,8.5
+97908,5.4,104.4,167,Male,62,Non-Hispanic White,1.68,Some college/AA,No,Not at all,54,105,39,11.23,10,10
+97934,5.4,85.6,171.7,Male,25,Non-Hispanic White,5,High school/GED,No,Not at all,50,64,44,24.07,5,7
+97940,5.4,89.7,177.9,Male,29,Non-Hispanic Asian,5,Some college/AA,No,Not at all,136,94,44,5.76,7,7.5
+97944,5.8,95.2,153.9,Female,63,Non-Hispanic White,3.69,High school/GED,No,Every day,71,116,50,6.48,8,9
+97950,6.4,99.7,159.6,Female,69,Non-Hispanic Black,2.22,College graduate or above,No,Some days,61,85,53,5.89,7.5,10
+97955,6,107.4,171.5,Male,65,Non-Hispanic White,1.45,High school/GED,No,Not at all,111,84,72,31.67,7.5,7.5
+97963,4.6,93.4,181.7,Male,29,Non-Hispanic White,1.79,Some college/AA,No,Some days,193,111,47,2.86,9,9
+97986,5.7,118.8,165.6,Female,29,Non-Hispanic Black,2.89,Some college/AA,Yes,Every day,156,67,31,16.15,6,9
+98018,5.6,84.5,179.6,Male,22,Non-Hispanic Black,1.2,9-11th grade,No,Every day,63,111,41,8.2,11,14
+98043,5.9,96.7,177.6,Male,61,Non-Hispanic Black,4.25,College graduate or above,No,Not at all,49,104,54,7.1,7,6
+98046,5.9,119.7,164.8,Female,49,Non-Hispanic White,0.64,9-11th grade,No,Every day,110,113,43,20.98,5.5,5
+98049,5.7,85.2,170.8,Male,67,Non-Hispanic Asian,1.63,Less than 9th grade,No,Not at all,60,94,84,2.28,8,8
+98056,5.8,109.8,164.6,Female,34,Non-Hispanic White,1.82,High school/GED,No,Every day,175,156,35,9.02,6.5,6.5
+98092,6,105.2,162.5,Male,41,Mexican American,2.89,9-11th grade,Yes,Every day,138,143,43,26.41,8,11
+98103,5.2,85.6,175,Male,37,Non-Hispanic Black,0.34,Some college/AA,No,Some days,44,119,44,8.45,6,8
+98113,5.3,139,167,Female,25,Non-Hispanic White,0.91,Some college/AA,Yes,Not at all,94,87,69,15.28,6,8
+98134,5.7,90.1,167.3,Male,62,Mexican American,2.2,Less than 9th grade,No,Every day,148,157,41,10.35,7.5,7.5
+98135,5.7,135.7,163.3,Female,42,Non-Hispanic White,0.69,High school/GED,No,Every day,238,120,30,29.72,7,8
+98138,4.8,102.6,169.4,Male,40,Non-Hispanic Asian,0.56,High school/GED,Yes,Every day,294,131,39,18.27,7,9
+98143,5.5,76.8,165.5,Female,80,Non-Hispanic White,1.84,Some college/AA,No,Every day,84,96,90,6.69,8.5,8.5
+98148,5.2,82,161.6,Female,37,Non-Hispanic White,0.76,High school/GED,No,Every day,192,143,32,9.41,9,8
+98161,5.2,111.1,161,Female,43,Non-Hispanic White,1.08,Some college/AA,Yes,Every day,90,163,61,6.13,6.5,8
+98195,5.7,85.7,183.1,Male,28,Non-Hispanic Black,2.62,High school/GED,No,Every day,25,101,61,4.93,8,13
+98202,4.6,103.6,163.3,Male,50,Non-Hispanic Black,4.62,9-11th grade,No,Not at all,82,143,50,6.88,6.5,8
+98204,5.4,84.2,182.9,Male,60,Non-Hispanic White,1.98,High school/GED,No,Not at all,78,137,57,5.72,7,8
+98208,5.1,95.8,168.1,Female,39,Non-Hispanic White,4.07,College graduate or above,No,Some days,166,123,66,7.78,4,6
+98211,6,101.6,170.5,Male,74,Other Hispanic,4,9-11th grade,No,Not at all,75,115,48,10,8,8
+98225,4.1,121.2,181.5,Male,26,Non-Hispanic Black,2.07,Some college/AA,No,Not at all,63,97,41,13.52,8.5,10
+98227,5.3,104.4,157,Female,61,Mexican American,2.95,Less than 9th grade,No,Not at all,87,91,54,11.94,6,8
+98243,5.8,102.7,168.9,Male,35,Non-Hispanic Asian,2.79,Some college/AA,No,Every day,311,138,39,24.89,4,5
+98257,5.7,79.6,168.8,Male,71,Non-Hispanic White,3.43,Some college/AA,No,Every day,100,128,61,5.47,10.5,6
+98298,5.4,124.1,158.8,Female,28,Other/Multi-Racial,3.38,College graduate or above,Yes,Not at all,81,58,51,19.07,8,8
+98300,5.6,109,163,Female,48,Non-Hispanic White,2.44,Some college/AA,No,Not at all,86,114,56,10.55,9.5,9.5
+98304,5.5,83,156.4,Female,79,Non-Hispanic White,2.43,College graduate or above,No,Not at all,55,72,80,5.95,8.5,8.5
+98314,5.5,106.1,175,Male,25,Non-Hispanic Black,0.31,High school/GED,Yes,Every day,87,120,46,20,9,11
+98322,5.1,124.4,164.5,Female,29,Non-Hispanic White,0.8,High school/GED,Yes,Every day,81,67,32,21.2,8,8
+98341,5.6,83.3,168.4,Male,71,Non-Hispanic White,0.83,High school/GED,No,Every day,69,72,62,5.13,7.5,7
+98372,6.1,82.5,175.8,Male,70,Other/Multi-Racial,1.66,9-11th grade,No,Every day,50,88,60,3.61,7,7
+98374,5.6,116.4,165.7,Female,42,Non-Hispanic White,0.58,9-11th grade,No,Every day,171,110,29,23.51,9,9
+98426,5.5,75.8,170,Male,28,Non-Hispanic Black,1.2,Some college/AA,No,Every day,97,169,76,7.47,6.5,7
+98431,10.8,112.4,156,Female,69,Non-Hispanic Black,0.74,High school/GED,No,Not at all,141,217,38,20.5,9,8
+98437,5,87.8,164.3,Female,32,Non-Hispanic Black,0.6,Some college/AA,Yes,Every day,65,87,59,6.22,5,6
+98442,5.1,109.4,163.7,Female,22,Non-Hispanic Black,1.99,High school/GED,Yes,Every day,100,235,34,27.06,8.5,9
+98444,5.1,113.4,154.6,Female,59,Non-Hispanic White,0.65,High school/GED,No,Every day,293,194,48,7.03,6,6
+98463,5.6,107.8,165.7,Female,66,Non-Hispanic White,0.04,Some college/AA,No,Not at all,100,145,61,11.38,3,3
+98526,5.4,89.4,167.4,Male,67,Non-Hispanic White,5,Some college/AA,No,Not at all,126,160,62,7,8,8
+98540,4.9,66,164.2,Male,63,Non-Hispanic Asian,0.74,9-11th grade,No,Every day,78,155,50,1.67,9,9
+98548,6,99.1,155.4,Male,43,Other Hispanic,0.68,Some college/AA,Yes,Not at all,103,111,35,10.4,8,9
+98557,5.8,86.8,168.4,Male,80,Non-Hispanic Black,1.1,9-11th grade,No,Every day,79,82,37,7.3,8,8
+98561,5.7,118.7,178.4,Male,44,Non-Hispanic Black,5,College graduate or above,No,Every day,82,193,67,8.3,7,6
+98565,5.7,71.7,154.3,Female,57,Non-Hispanic White,1.47,Some college/AA,No,Every day,133,138,48,6.15,7,8
+98568,5.8,117.7,178.8,Male,78,Non-Hispanic White,2.04,High school/GED,No,Not at all,98,65,43,6.44,8.5,8
+98569,6.1,93.5,168.2,Male,65,Other Hispanic,2.12,9-11th grade,No,Every day,124,195,56,1.26,11,11
+98598,6,89,167.9,Male,65,Non-Hispanic Black,0.7,9-11th grade,No,Every day,94,64,45,7.8,7,11
+98661,4.9,63.2,168.5,Female,31,Non-Hispanic Black,2.43,9-11th grade,No,Every day,53,44,57,3.05,4,8
+98689,5.4,107,171.4,Male,35,Non-Hispanic White,1.1,9-11th grade,No,Every day,104,121,38,18.86,5.5,7.5
+98707,5.9,93,168.4,Female,63,Non-Hispanic Black,4.25,Some college/AA,No,Every day,68,70,63,8.37,3,7.5
+98733,5.3,97.1,166.7,Female,36,Non-Hispanic White,2.15,Some college/AA,No,Not at all,170,88,47,12.12,7,7
+98748,5.1,77.9,172.4,Male,50,Non-Hispanic White,1.4,Some college/AA,No,Every day,66,153,31,2.05,10,7
+98772,5.3,108.5,177.5,Male,59,Non-Hispanic White,0.74,Some college/AA,No,Not at all,92,97,44,6.02,9,9
+98780,6,121.2,181.3,Male,45,Non-Hispanic Black,0.36,High school/GED,No,Every day,153,164,32,20.3,9,9
+98781,5.3,111.1,162.1,Female,55,Non-Hispanic White,1.52,Some college/AA,No,Not at all,238,102,55,8.4,9,9
+98824,5.6,106.4,173.6,Male,24,Other/Multi-Racial,1.5,9-11th grade,No,Every day,149,111,32,13.96,8,7
+98843,6.4,86.7,163.3,Male,56,Non-Hispanic White,0.62,High school/GED,No,Every day,184,118,41,3.19,5,5
+98846,5.4,97.2,169.2,Female,47,Non-Hispanic White,0.58,9-11th grade,No,Every day,31,98,58,5.11,8,8
+98892,5.5,83.9,177.5,Male,55,Non-Hispanic White,2.15,High school/GED,No,Every day,50,101,69,6.42,5,5
+98905,5.2,98.3,172.6,Male,63,Non-Hispanic White,1.44,High school/GED,Yes,Some days,179,146,51,6.56,9,9
+98909,5.5,100.1,174.4,Male,68,Other Hispanic,0.52,High school/GED,No,Not at all,141,116,42,10.64,9,11
+98920,5.5,97.5,187,Male,23,Non-Hispanic White,0.71,Some college/AA,Yes,Every day,42,66,44,12.31,7,7.5
+98924,4.8,87.5,177.8,Male,60,Other Hispanic,2.82,Some college/AA,No,Not at all,111,186,78,3.3,6.5,6.5
+98948,5.4,123.1,181.9,Male,33,Non-Hispanic White,3.79,Some college/AA,No,Not at all,73,115,49,17.77,5,9.5
+98958,4.1,72.4,149,Female,23,Non-Hispanic White,1.35,High school/GED,No,Not at all,85,99,51,6.49,9,9
+98964,5.6,103.7,180.7,Male,80,Non-Hispanic White,1.18,9-11th grade,No,Not at all,80,95,50,10.58,9,9
+98981,5.3,67.2,174.2,Male,31,Non-Hispanic Black,0.61,High school/GED,No,Not at all,46,95,65,2.47,7,7
+98995,5.5,93.1,172.2,Female,55,Other Hispanic,2.73,College graduate or above,No,Not at all,89,200,66,4.7,8,9
+99014,6,111.1,173.4,Male,68,Non-Hispanic White,5,High school/GED,No,Not at all,131,53,72,23.08,3.5,3.5
+99019,6.1,143.5,168.4,Female,41,Mexican American,2.49,High school/GED,No,Every day,78,119,42,21.43,7,8
+99024,5,77,166.7,Female,38,Non-Hispanic Asian,5,College graduate or above,No,Not at all,31,112,57,2.73,6.5,8.5
+99028,5.4,98.3,155.2,Female,42,Mexican American,1.22,Some college/AA,No,Every day,71,123,64,6.29,8,8
+99063,5.8,93.8,187.8,Male,41,Non-Hispanic Black,0.89,Some college/AA,No,Every day,106,102,47,13.81,10,11
+99108,5.1,97,180.8,Male,51,Non-Hispanic White,1.92,Some college/AA,No,Every day,62,95,87,4.77,6,7
+99134,6.1,73.5,165.8,Male,71,Non-Hispanic Black,0.79,Some college/AA,No,Every day,97,103,56,46.66,8,7
+99160,5.1,92.4,165.9,Female,43,Other/Multi-Racial,2.16,Some college/AA,No,Not at all,74,79,47,18.8,6.5,7
+99175,4.7,86.4,178.3,Male,69,Non-Hispanic Black,5,Some college/AA,No,Some days,96,109,46,8.67,7,7
+99191,4.6,92,155.8,Female,80,Non-Hispanic White,1.46,High school/GED,No,Not at all,128,99,79,12.92,9.5,9.5
+99197,5.1,81.8,154.7,Female,28,Other Hispanic,1.19,High school/GED,No,Not at all,134,124,50,4.31,7,10
+99220,5.8,102.4,162.5,Female,78,Non-Hispanic Black,0.75,High school/GED,No,Some days,49,105,102,8.71,9,9
+99277,5.8,103.4,167.9,Male,58,Mexican American,0,9-11th grade,No,Every day,240,98,25,4.84,10,10
+99279,5.8,100,150.7,Female,34,Mexican American,1.91,9-11th grade,Yes,Not at all,161,95,46,13.28,8,8
+99293,5.8,78.7,168.4,Male,75,Non-Hispanic Black,1.15,High school/GED,No,Not at all,65,102,66,8.55,7.5,7.5
+99321,5.3,90.4,174.4,Male,45,Non-Hispanic Asian,5,College graduate or above,No,Not at all,59,106,60,12.43,6,7.5
+99327,6.6,128.6,176.8,Male,59,Non-Hispanic Black,0.99,High school/GED,No,Not at all,120,90,35,15.58,7,10
+99335,5.2,85.5,174.4,Male,46,Other/Multi-Racial,2.55,Some college/AA,No,Every day,113,106,80,2.89,7.5,8
+99338,5.2,90.2,162.6,Female,37,Mexican American,1.29,Less than 9th grade,No,Every day,189,147,51,11.92,9,9
+99348,5.8,115.4,161.5,Female,80,Non-Hispanic White,2.55,College graduate or above,No,Every day,148,210,59,11.42,8,8
+99361,4.7,100.6,185.4,Male,34,Non-Hispanic White,1.1,Some college/AA,No,Not at all,50,101,51,9.6,5.5,9
+99364,5.8,88,161.7,Male,52,Other/Multi-Racial,0.58,Less than 9th grade,No,Every day,82,93,37,7.08,3.5,4.5
+99366,6,123.8,153.2,Female,47,Mexican American,5,Some college/AA,No,Some days,118,141,48,22.17,6.5,4.5
+99405,5.7,132.4,163.7,Male,54,Other/Multi-Racial,0.93,High school/GED,Yes,Not at all,79,110,45,20.27,11,11
+99430,5.8,115.7,175.9,Male,36,Mexican American,2.86,High school/GED,Yes,Some days,77,90,37,29.9,4.5,9
+99436,5.7,114.2,173.5,Female,22,Non-Hispanic Black,1.58,Some college/AA,No,Not at all,86,184,62,24.81,11,9
+99442,5.3,76.2,159.1,Female,35,Non-Hispanic White,1.22,Some college/AA,No,Every day,74,79,32,6.84,9,9.5
+99448,5.4,85.2,173.8,Male,49,Other/Multi-Racial,0.61,Less than 9th grade,No,Every day,196,116,38,5.6,6,9
+99452,5.6,75.9,162.2,Female,63,Non-Hispanic White,1.67,High school/GED,No,Every day,66,70,45,11.37,8,8
+99477,5.6,102.2,182.5,Male,63,Mexican American,1.22,Less than 9th grade,No,Not at all,108,110,38,9.88,9,9
+99484,6.1,138.6,161.8,Female,51,Other Hispanic,0.07,9-11th grade,No,Every day,103,112,47,10.33,9,9
+99486,7.2,88.1,166,Male,62,Non-Hispanic Asian,4.25,College graduate or above,No,Not at all,101,103,49,6.46,8,8
+99494,5.2,92.5,157.2,Female,46,Mexican American,0.68,9-11th grade,No,Every day,107,88,48,8.13,6.5,7.5
+99512,5.7,75.1,171.8,Female,65,Non-Hispanic Black,1.2,Some college/AA,No,Not at all,67,77,55,5.59,7.5,7.5
+99518,7.6,116.8,176.9,Male,80,Non-Hispanic Black,5,Some college/AA,Yes,Not at all,81,75,55,9.09,8.5,6.5
+99533,5.3,87.6,156.7,Female,73,Non-Hispanic White,5,College graduate or above,No,Not at all,78,109,79,4.52,8,8
+99539,5.6,131.7,191,Male,22,Non-Hispanic Black,1.15,High school/GED,No,Every day,263,178,48,32.22,7.5,7
+99554,5.3,115.8,170.5,Male,72,Non-Hispanic White,2.06,Some college/AA,No,Not at all,142,73,52,23.85,9,9
+99580,5.6,103.7,167.3,Male,66,Non-Hispanic White,2.03,9-11th grade,No,Not at all,115,187,55,3.71,6,6
+99593,5.2,79,178.4,Male,34,Other/Multi-Racial,5,College graduate or above,No,Not at all,113,98,51,3.47,8,9
+99604,6.2,95.4,161.6,Male,80,Non-Hispanic White,2.16,High school/GED,No,Not at all,107,125,63,7.88,8.5,8.5
+99645,6.1,100.7,151.4,Female,80,Non-Hispanic Black,0.65,9-11th grade,No,Not at all,62,88,57,3.28,7,7
+99679,5.6,102.5,172.9,Male,61,Other Hispanic,5,College graduate or above,No,Not at all,68,214,78,5.81,6.5,6.5
+99695,5.6,118.9,161.7,Female,37,Non-Hispanic White,2.15,High school/GED,No,Every day,86,126,46,20.14,7.5,10
+99700,5.8,92,159.3,Male,70,Non-Hispanic White,4.56,College graduate or above,No,Not at all,186,207,46,6.46,6.5,6.5
+99724,5.5,99.8,175.5,Male,56,Non-Hispanic White,1.33,College graduate or above,No,Not at all,72,161,53,7.3,10,10
+99744,5.6,87,172.3,Female,51,Non-Hispanic White,2.79,High school/GED,Yes,Every day,63,147,52,1.46,8.5,9
+99745,5.7,96.3,164.7,Male,33,Non-Hispanic Asian,5,College graduate or above,No,Some days,352,135,41,13.25,5.5,6
+99749,5.2,130.8,176.6,Female,33,Non-Hispanic Black,1.04,High school/GED,No,Not at all,49,84,75,20.33,8,9
+99782,5.6,97.6,163.2,Female,53,Mexican American,4.28,College graduate or above,No,Every day,95,151,57,15.1,9.5,4
+99785,6.4,110.9,153.7,Female,80,Non-Hispanic White,5,High school/GED,Yes,Not at all,142,99,45,21.18,9,9
+99792,5.4,98.8,168.1,Male,69,Other/Multi-Racial,2.06,9-11th grade,Yes,Not at all,80,102,45,10.04,7,7
+99797,6.1,74.5,177.2,Male,65,Non-Hispanic White,0.88,Some college/AA,No,Every day,105,112,58,7.96,3.5,3.5
+99804,5.5,106.5,181.6,Male,61,Non-Hispanic White,1.23,High school/GED,Yes,Not at all,184,63,33,31.02,6,6
+99807,4.9,93.4,168.2,Male,27,Mexican American,1.98,Some college/AA,Yes,Every day,184,107,40,5.58,8,8
+99833,6.1,98.5,161.6,Male,70,Non-Hispanic White,2.99,College graduate or above,No,Not at all,134,88,61,11.14,8,8
+99842,5.4,106.4,177.6,Male,47,Non-Hispanic White,4.57,Some college/AA,No,Not at all,110,86,39,65.24,8,8
+99866,5.5,153.2,179.2,Male,61,Non-Hispanic White,2.24,Some college/AA,No,Not at all,142,141,50,31.3,5.5,5.5
+99867,5,87.2,166.9,Male,29,Non-Hispanic White,3.73,Some college/AA,No,Not at all,116,137,54,5.59,6.5,10
+99883,5.8,103.7,169.4,Male,51,Other Hispanic,2.54,Less than 9th grade,No,Not at all,227,183,40,10.8,7,7
+99886,5.6,92.8,164.1,Female,63,Non-Hispanic White,0.62,High school/GED,No,Every day,162,152,53,8.47,9.5,9.5
+99895,6.1,129,162.8,Male,73,Other Hispanic,2.21,High school/GED,No,Every day,84,59,30,7.48,6.5,7.5
+99898,5.3,133,187.2,Male,33,Non-Hispanic White,4.31,High school/GED,No,Not at all,95,180,48,39.56,8.5,7
+99922,5.1,109.4,182,Male,63,Non-Hispanic White,4.62,Some college/AA,No,Every day,143,125,48,15.72,8.5,8.5
+99950,5.6,106.3,179.6,Male,80,Non-Hispanic Black,0.66,College graduate or above,No,Not at all,97,156,60,10.92,5.5,4
+99961,4.9,87.9,164,Female,39,Non-Hispanic Asian,4.94,College graduate or above,No,Not at all,85,181,103,3.24,9,9
+99969,6.1,114.6,178.4,Male,69,Non-Hispanic Black,0.83,9-11th grade,No,Not at all,69,113,54,11.74,7,7
+99983,5.4,152,171.6,Female,33,Non-Hispanic Black,0.75,Some college/AA,No,Every day,59,157,54,11.65,11,12
+99984,5.2,104.7,164.9,Female,54,Other Hispanic,5,College graduate or above,Yes,Some days,249,134,61,7.22,7.5,8
+100001,5.4,102.5,176.4,Male,39,Non-Hispanic White,0.49,Some college/AA,No,Every day,224,101,48,3.59,8,8
+100015,5,87,171.8,Male,27,Non-Hispanic White,1.32,High school/GED,No,Every day,62,74,41,3.51,5,10
+100025,5.7,144.6,167.4,Female,35,Non-Hispanic White,1.11,College graduate or above,Yes,Every day,85,101,33,97.23,4,4
+100039,5.3,88.3,171.7,Male,28,Non-Hispanic White,2.11,High school/GED,No,Not at all,189,196,47,11.49,10.5,4.5
+100040,5.3,108.5,181,Male,24,Other/Multi-Racial,3.35,High school/GED,No,Not at all,117,137,49,10.05,7.5,7
+100043,6.1,120,159.1,Female,67,Non-Hispanic Black,2.16,Some college/AA,No,Not at all,112,173,58,19.74,9,9
+100044,5.3,90.2,176.4,Male,27,Mexican American,2.39,9-11th grade,No,Every day,99,121,41,3.26,8,8
+100071,5.7,99.3,169.1,Male,71,Non-Hispanic White,1.68,Some college/AA,No,Not at all,122,119,45,10.41,4.5,4.5
+100122,5.7,110.1,182.1,Male,65,Non-Hispanic Black,2.03,Some college/AA,Yes,Every day,94,182,53,11.62,8,8
+100162,5.4,83.1,144.8,Female,64,Other Hispanic,1.22,High school/GED,Yes,Every day,300,145,53,5.83,6.5,6.5
+100190,5.1,112.7,168.7,Female,32,Other Hispanic,2.73,Some college/AA,Yes,Not at all,238,78,35,8.86,9,9
+100200,5.8,114.6,162.7,Female,43,Other/Multi-Racial,0.87,Some college/AA,No,Not at all,97,178,45,25.49,7,6.5
+100203,5.4,74.2,184.6,Male,39,Non-Hispanic Black,4.77,High school/GED,No,Every day,46,110,57,2.34,2,11
+100205,5.9,123.6,178.6,Male,48,Non-Hispanic Black,2.45,College graduate or above,Yes,Not at all,82,169,41,19.99,4.5,10
+100210,5.7,133.5,163.3,Female,60,Non-Hispanic White,0.59,High school/GED,No,Not at all,75,165,73,6.82,7.5,10
+100212,5.3,80.2,177.6,Male,58,Non-Hispanic White,3.85,High school/GED,No,Every day,53,77,60,2.35,5,5
+100244,5.7,122.8,174.8,Male,62,Non-Hispanic White,2.8,Some college/AA,No,Not at all,104,140,44,22.49,9.5,9.5
+100248,5.8,80.6,168.5,Male,28,Non-Hispanic Asian,3.69,College graduate or above,No,Not at all,45,102,47,5.41,6.5,6.5
+100264,5.4,70.5,166,Male,26,Non-Hispanic Black,0.98,9-11th grade,No,Every day,141,80,41,7.18,8,7
+100268,5.6,82.2,154.4,Female,60,Non-Hispanic Asian,5,College graduate or above,No,Not at all,33,162,73,2.03,7.5,8.5
+100270,5.7,101.3,178.3,Male,36,Other Hispanic,3.71,Some college/AA,Yes,Some days,70,121,41,9.12,6,11
+100273,5,80.7,175.4,Male,71,Non-Hispanic White,1.66,High school/GED,No,Not at all,72,99,54,3.11,10,10
+100292,6.2,125.3,155,Female,56,Other/Multi-Racial,0.61,High school/GED,Yes,Not at all,107,106,52,12.93,6.5,8.5
+100301,5.6,104.2,164.4,Female,53,Other/Multi-Racial,2.89,Some college/AA,No,Not at all,117,91,73,7.5,7,9
+100389,5.9,106.4,159.2,Female,55,Non-Hispanic Black,0.62,9-11th grade,No,Some days,106,177,50,6.82,6,7
+100422,6.7,77.7,181.5,Male,66,Non-Hispanic Black,3.07,Some college/AA,No,Every day,53,47,39,3.44,6,5
+100436,5,125.4,149.7,Female,48,Mexican American,0.93,Some college/AA,Yes,Not at all,144,92,48,27.58,12,12
+100463,5.7,74.5,175,Male,28,Non-Hispanic Black,1.05,High school/GED,No,Every day,59,91,56,2.42,8.5,11
+100499,5.4,149.3,155,Female,52,Other Hispanic,1.89,Some college/AA,Yes,Not at all,50,112,61,25.2,8,9
+100509,5.8,102,153.3,Female,79,Non-Hispanic White,1.26,9-11th grade,No,Not at all,106,118,41,12.93,5,5
+100511,5.6,99.5,158.5,Female,64,Non-Hispanic Black,1.58,College graduate or above,No,Not at all,69,93,64,6.23,8,9
+100515,5.8,81.8,153.5,Female,70,Non-Hispanic Asian,2.01,Some college/AA,Yes,Not at all,128,80,59,7.84,8,8
+100516,6.3,118.5,173.8,Male,61,Other Hispanic,1.79,Some college/AA,No,Not at all,69,124,51,19.41,7.5,7.5
+100517,6,93.7,188.7,Male,39,Non-Hispanic White,5,College graduate or above,No,Every day,114,131,41,5.19,8.5,7.5
+100565,5.7,104.2,171.1,Male,70,Non-Hispanic White,1.79,High school/GED,No,Every day,211,103,35,14.78,8,8
+100581,7,114.3,169.4,Male,78,Non-Hispanic Black,1.46,9-11th grade,No,Not at all,97,126,35,24.16,8,8
+100584,5.6,98.7,177.2,Male,63,Non-Hispanic White,5,Some college/AA,No,Every day,166,117,42,7.29,9,8
+100586,6,113,166,Male,80,Non-Hispanic White,1.36,9-11th grade,Yes,Not at all,97,52,42,4.45,9,9
+100594,5.1,72.3,171.3,Male,59,Non-Hispanic Black,0.99,Some college/AA,No,Every day,40,50,60,0.71,4,5
+100624,5.4,106.3,170,Male,23,Mexican American,0.49,High school/GED,No,Not at all,39,91,43,32.01,7,7
+100627,5.4,68.7,147.1,Female,43,Other/Multi-Racial,0.12,High school/GED,Yes,Every day,83,112,50,4.24,4,8
+100670,5.4,96.7,164.8,Male,41,Non-Hispanic Asian,4.08,College graduate or above,No,Not at all,323,98,33,7.95,8,7
+100705,5.4,118,161.9,Female,56,Non-Hispanic White,2.16,High school/GED,No,Not at all,129,154,42,15.25,7.5,10
+100713,5.6,87.2,164.6,Female,38,Non-Hispanic White,3.92,Some college/AA,Yes,Not at all,52,89,65,3.57,6.5,6.5
+100717,6.2,131.4,168.5,Female,49,Non-Hispanic White,0.82,Some college/AA,No,Every day,94,92,44,8.81,8.5,8.5
+100720,5.9,93.3,185,Male,59,Non-Hispanic White,2.65,Some college/AA,No,Every day,158,90,35,3.97,5,5
+100754,5.4,110.2,189.6,Male,54,Non-Hispanic Black,4.31,Some college/AA,No,Every day,268,120,54,15.81,6.5,6.5
+100780,5.7,106.7,182.1,Male,54,Non-Hispanic White,1.22,Some college/AA,No,Some days,59,107,67,15.56,9,9
+100801,4.9,111.5,173.1,Male,34,Non-Hispanic White,0.43,High school/GED,No,Every day,82,83,41,10.43,9.5,9
+100856,5.4,81.6,157.4,Female,75,Other/Multi-Racial,5,Some college/AA,No,Not at all,61,54,74,5.13,7,7
+100876,5.8,102.2,163.8,Male,77,Non-Hispanic Asian,0.91,High school/GED,No,Not at all,54,105,53,12.11,9,9
+100879,7.9,102.4,178.9,Male,71,Other/Multi-Racial,1.4,9-11th grade,Yes,Some days,94,189,87,6.21,10.5,9.5
+100880,5.9,113.5,185.3,Male,46,Non-Hispanic White,1.27,High school/GED,Yes,Every day,188,142,32,10.26,9,9
+100905,5.6,115,182.9,Male,80,Non-Hispanic White,5,College graduate or above,No,Not at all,118,76,50,17.92,7,7
+100915,5.7,114.8,169.2,Male,67,Non-Hispanic White,3.86,9-11th grade,No,Not at all,103,138,51,11.36,7.5,7
+100928,5.2,76.6,173.1,Male,25,Non-Hispanic White,2.08,9-11th grade,Yes,Every day,53,98,47,4.16,6,9
+100935,5.6,75.2,184.9,Male,20,Non-Hispanic Black,1.07,High school/GED,No,Every day,46,67,41,3.52,8,8
+100952,5.4,80,183.4,Male,21,Non-Hispanic White,4.19,Some college/AA,No,Every day,57,124,54,3.56,11,8
+100973,5.4,116.6,186,Male,28,Other/Multi-Racial,2.35,Some college/AA,No,Some days,62,84,44,7.55,7,9
+100989,5.8,95,155.6,Female,68,Non-Hispanic Black,3.46,Some college/AA,No,Every day,97,98,45,8.31,6.5,6.5
+100996,5.5,109.3,184.3,Male,52,Non-Hispanic White,5,Some college/AA,No,Some days,169,131,41,7.28,6,8
+100997,6,117.5,161.9,Female,60,Other Hispanic,1.13,9-11th grade,Yes,Not at all,106,135,56,26.26,8,8
+101009,5.5,143,172.3,Female,21,Mexican American,1.41,High school/GED,No,Some days,131,85,36,43.62,6,6
+101011,5.8,106.2,176.7,Male,23,Non-Hispanic White,4.41,College graduate or above,No,Some days,103,99,51,6.18,7.5,8
+101014,5.3,78.5,170,Female,42,Non-Hispanic White,0.63,High school/GED,No,Every day,85,117,49,5.94,7,5.5
+101021,6.5,110.5,172.5,Male,61,Non-Hispanic Black,2.65,Some college/AA,Yes,Not at all,40,112,57,3.35,7.5,9.5
+101023,4.9,94.5,175.1,Male,52,Other/Multi-Racial,5,College graduate or above,Yes,Not at all,62,107,59,4.16,7.5,8
+101033,6.5,97.5,189.3,Male,63,Non-Hispanic Black,4.35,Some college/AA,No,Every day,129,155,49,18.14,6,5
+101064,5.4,103,170.6,Male,28,Other/Multi-Racial,1.85,Some college/AA,No,Every day,285,158,33,18.94,11,8
+101065,5.4,88.3,172.6,Female,44,Mexican American,0.8,High school/GED,No,Not at all,87,173,64,14.52,9,9
+101076,5.3,78.5,158.6,Female,22,Other/Multi-Racial,4.25,High school/GED,Yes,Not at all,66,119,52,4.7,8.5,8
+101078,5.4,115,180.8,Male,62,Non-Hispanic Black,1.38,Some college/AA,No,Some days,114,128,43,40.81,8,10
+101079,5.5,78,155,Female,51,Non-Hispanic Asian,1.47,High school/GED,Yes,Not at all,44,125,69,3.57,5,8
+101085,5.2,129.6,185.5,Male,31,Other/Multi-Racial,2.79,Some college/AA,Yes,Not at all,97,153,36,18.74,8,8.5
+101087,6.7,73.4,159.7,Female,51,Non-Hispanic White,3.34,High school/GED,No,Every day,109,112,59,12.44,2,2
+101106,5.7,112.4,166.3,Female,49,Non-Hispanic Black,5,Some college/AA,No,Every day,114,156,64,14.37,6.5,8
+101108,5.2,83.5,151.9,Female,59,Other/Multi-Racial,5,Some college/AA,No,Not at all,92,130,54,3.34,8,9
+101118,5.1,117.9,184,Male,26,Mexican American,2.72,Some college/AA,Yes,Not at all,114,99,41,22.12,7,7
+101122,6,87.1,185.5,Male,30,Non-Hispanic Black,1.44,Some college/AA,Yes,Every day,135,93,40,13.98,8,10
+101123,5.5,75.5,168.4,Female,59,Non-Hispanic White,2.59,High school/GED,No,Not at all,55,118,45,6.85,7.5,7.5
+101138,4.8,121.4,171.4,Female,33,Non-Hispanic White,5,College graduate or above,No,Not at all,75,162,52,21.06,7.5,9
+101169,5.5,93.9,157.6,Female,58,Non-Hispanic Black,0.99,High school/GED,No,Every day,71,147,73,7.41,9,6
+101174,5.7,96.8,183.8,Male,35,Non-Hispanic Black,1.84,Some college/AA,No,Some days,144,146,60,13.71,6,6
+101175,5.5,107.6,172.3,Male,55,Non-Hispanic White,1.58,College graduate or above,No,Not at all,90,114,58,5.82,10.5,13
+101191,5.3,105,158.5,Female,35,Non-Hispanic White,2.41,High school/GED,No,Every day,143,132,54,5.59,13,12
+101193,5.1,95.3,169.7,Male,63,Other Hispanic,5,College graduate or above,No,Not at all,104,119,62,3.35,6.5,5
+101216,6.3,122,164.6,Female,55,Non-Hispanic Black,0.11,High school/GED,No,Every day,111,111,52,18.49,9,9
+101226,5.4,100,167.7,Male,44,Non-Hispanic Asian,1.15,9-11th grade,No,Every day,227,139,36,44.4,6.5,6.5
+101230,5.5,107.2,159,Female,50,Non-Hispanic Black,1.05,Some college/AA,No,Every day,63,71,76,3.68,8.5,9
+101238,5.5,91.4,174.2,Male,36,Other Hispanic,2.69,Some college/AA,No,Not at all,31,136,66,3.32,10,10
+101243,5.6,95,174.1,Male,63,Non-Hispanic White,2,Some college/AA,No,Every day,88,153,47,4.83,7,7
+101254,5.6,69.1,163.5,Female,29,Non-Hispanic Black,3.98,College graduate or above,No,Not at all,69,101,59,7.65,3,4
+101342,5.2,148.6,167.7,Female,41,Non-Hispanic White,2.55,College graduate or above,Yes,Every day,103,85,51,14.5,7.5,8
+101343,5.8,118.6,171.4,Male,80,Non-Hispanic White,5,College graduate or above,Yes,Not at all,104,164,54,11.72,7.5,7.5
+101356,5.6,72.5,165.6,Female,54,Non-Hispanic White,5,Some college/AA,Yes,Not at all,36,128,71,5.84,6.5,8
+101362,5.6,105.7,165.6,Female,74,Non-Hispanic White,2.07,High school/GED,No,Not at all,92,114,68,3.13,8,7
+101379,5.3,74.5,168.2,Male,55,Non-Hispanic Black,0,High school/GED,No,Every day,60,127,56,3.96,7.5,9.5
+101399,5.2,95.1,181.7,Male,41,Non-Hispanic White,4.86,Some college/AA,No,Not at all,62,117,66,4.19,8,10
+101400,5.6,99.1,169.2,Male,53,Non-Hispanic Asian,0.89,College graduate or above,No,Not at all,122,101,39,14.12,9,9
+101442,5.5,120.8,160.7,Female,67,Non-Hispanic White,3.43,College graduate or above,No,Not at all,77,114,67,8.47,7,7.5
+101444,6,117.2,170.5,Male,63,Mexican American,3.95,Some college/AA,No,Not at all,82,129,44,31.09,7.5,7
+101448,5.8,102,177.7,Male,49,Other/Multi-Racial,0.73,9-11th grade,No,Every day,85,134,36,4.96,4,5.5
+101462,5.3,143.2,160.8,Female,23,Non-Hispanic White,2.46,College graduate or above,Yes,Not at all,160,110,43,32.37,7,8
+101478,5.8,93.2,170.2,Male,60,Other Hispanic,0.7,High school/GED,No,Every day,62,90,51,15.74,6,6
+101479,5.7,100.2,158.5,Female,73,Non-Hispanic White,1.98,Some college/AA,No,Every day,144,127,41,15.13,7,7
+101488,5.6,106.5,160.3,Female,64,Other Hispanic,5,Some college/AA,No,Not at all,79,184,66,10.14,8.5,8.5
+101516,4.8,83.3,166.8,Female,30,Non-Hispanic White,5,College graduate or above,Yes,Not at all,29,68,77,3.42,8.5,9
+101537,5,102.1,172.9,Male,33,Non-Hispanic White,2.08,College graduate or above,Yes,Not at all,547,95,25,17.81,7.5,8
+101558,5.4,96,157.9,Male,54,Other Hispanic,1.37,Less than 9th grade,No,Every day,207,127,38,12.43,5,5
+101559,6.1,110.5,167.7,Male,27,Mexican American,1.52,Less than 9th grade,No,Some days,105,179,41,34.78,6,11
+101581,5.5,85.2,190.8,Male,62,Non-Hispanic Black,0.95,9-11th grade,No,Every day,35,156,139,3.31,5.5,6
+101590,4.3,112.5,170.2,Male,24,Mexican American,5,High school/GED,No,Some days,68,89,39,10.85,8.5,8.5
+101606,5.5,96.3,173.5,Male,58,Other Hispanic,0.41,Less than 9th grade,No,Not at all,41,105,69,2.78,7,7
+101608,6.4,112.5,186.4,Male,62,Non-Hispanic Black,2.59,Some college/AA,No,Not at all,76,88,51,12.18,9,8
+101626,5.4,88.5,163.1,Female,55,Non-Hispanic White,4.57,College graduate or above,No,Not at all,90,122,72,10.87,7.5,9
+101635,5.5,103.1,157.5,Female,63,Non-Hispanic White,3.08,High school/GED,Yes,Every day,96,213,62,7.83,9.5,9.5
+101649,5.5,91.4,167.6,Female,40,Non-Hispanic White,3.59,College graduate or above,No,Some days,91,154,48,8.29,8,9
+101658,5,100.7,174.4,Male,30,Non-Hispanic White,2.75,Some college/AA,No,Some days,78,89,65,7.75,5.5,6.5
+101659,5.4,75.9,166,Female,36,Other Hispanic,5,Some college/AA,No,Not at all,29,92,76,3.56,7,8
+101664,5.9,102.7,166.3,Female,47,Non-Hispanic White,0.49,High school/GED,No,Every day,87,103,71,22.57,8,8
+101669,5,125.5,153.5,Female,28,Non-Hispanic White,0.51,9-11th grade,No,Every day,110,121,38,23.02,7,7
+101687,5.7,94.8,158.1,Female,75,Non-Hispanic Black,1.06,Some college/AA,No,Every day,112,131,58,5.18,7,7
+101695,5.5,132.8,171.5,Female,45,Other/Multi-Racial,0.79,Some college/AA,Yes,Every day,94,146,51,9.61,7,7
+101707,5.3,123.8,155.5,Female,79,Non-Hispanic White,1.42,High school/GED,No,Not at all,78,96,48,10.44,9,9
+101718,5.2,121.5,154.5,Female,39,Non-Hispanic White,0.8,Some college/AA,No,Every day,46,119,44,7.4,9,9
+101724,4.8,98.7,190.6,Male,60,Non-Hispanic Black,5,Some college/AA,No,Not at all,114,144,60,4.12,6,7
+101727,5.7,113.5,185.2,Male,37,Other Hispanic,1.01,Some college/AA,No,Every day,124,161,51,13.19,5,5
+101730,6.2,122.5,172.2,Male,73,Non-Hispanic White,2.37,High school/GED,No,Not at all,105,112,41,17.93,6.5,6.5
+101731,5.4,98.5,174.9,Male,46,Mexican American,0.8,High school/GED,No,Not at all,198,181,41,5.89,10,10
+101737,5.4,98.1,170.5,Male,57,Non-Hispanic White,1.25,High school/GED,No,Every day,90,145,41,3.9,6.5,6.5
+101740,5.7,96,168.3,Female,59,Non-Hispanic Black,2.43,Some college/AA,No,Every day,137,169,72,9.64,3.5,5
+101755,5.7,97.7,160.4,Female,66,Other/Multi-Racial,0.86,Some college/AA,Yes,Not at all,107,156,61,11.32,9,8.5
+101763,6.3,98.2,158.1,Female,54,Non-Hispanic White,1.48,Some college/AA,Yes,Every day,133,104,59,9.54,7,7
+101772,7.2,103.6,171.6,Male,77,Non-Hispanic Black,4.8,High school/GED,No,Not at all,113,84,54,21.24,4,14
+101802,5.3,81.8,171,Female,57,Other/Multi-Racial,5,College graduate or above,No,Not at all,29,117,104,4.77,6.5,8
+101807,6.3,79.7,139.7,Female,79,Non-Hispanic Asian,1.1,Less than 9th grade,No,Not at all,93,167,54,6.64,8,8
+101817,7.4,126.2,181.9,Male,71,Non-Hispanic White,2.32,High school/GED,No,Not at all,126,124,54,28.81,9,9
+101822,5.5,100.4,171.7,Male,40,Non-Hispanic White,2.03,9-11th grade,No,Every day,242,102,37,11.22,8,7
+101845,5.1,108.6,165.3,Female,38,Other/Multi-Racial,1.34,9-11th grade,Yes,Not at all,142,163,35,8.57,6,9
+101848,5.8,72.1,160.5,Female,56,Mexican American,2.31,High school/GED,No,Some days,73,93,48,3.42,8,10
+101851,5.6,91.1,152.9,Male,40,Other Hispanic,2.31,Less than 9th grade,No,Not at all,417,116,29,12.1,7.5,11
+101861,5.4,86.1,160.8,Female,49,Non-Hispanic White,5,Some college/AA,No,Not at all,31,88,76,8.32,8,9
+101865,6,98.7,180,Female,53,Non-Hispanic Black,1.24,Some college/AA,No,Every day,126,81,78,10.57,7.5,7
+101866,6.4,107,174.6,Male,52,Non-Hispanic Black,1.52,9-11th grade,No,Every day,143,150,36,15.64,11.5,9.5
+101893,5.3,121.6,171.9,Male,23,Mexican American,1.11,High school/GED,No,Some days,283,106,45,41.71,10.5,11
+101894,4.9,88,168.3,Female,46,Other/Multi-Racial,1.43,College graduate or above,No,Every day,86,59,178,3.37,10,6.5
+101917,5.3,116,175.8,Male,66,Other Hispanic,2.2,Some college/AA,No,Not at all,136,97,46,6.49,9,8
+101950,5.9,118.5,173,Male,54,Non-Hispanic White,0.87,9-11th grade,No,Every day,50,91,56,14.54,8.5,8.5
+101957,5.2,76,149.2,Female,35,Non-Hispanic Asian,4.09,High school/GED,No,Not at all,34,78,83,3.54,7.5,7
+101966,5.5,73.5,163.6,Male,24,Other Hispanic,1.3,High school/GED,Yes,Every day,94,106,55,5,10,5
+102015,5.6,89.3,160.8,Female,20,Non-Hispanic White,1,High school/GED,No,Every day,67,45,49,13.71,9,9
+102031,5.5,109.3,159.4,Female,61,Non-Hispanic White,3.49,Some college/AA,No,Not at all,38,116,65,14.91,7,8
+102032,5.8,142.4,177.5,Female,67,Non-Hispanic Black,1.69,High school/GED,No,Not at all,44,51,56,16.21,10,9
+102035,5,94.7,170,Female,32,Non-Hispanic White,0.33,College graduate or above,No,Not at all,86,147,48,5.23,8,8
+102045,5.6,149.5,180.7,Male,55,Non-Hispanic White,0.89,Some college/AA,No,Every day,97,86,43,14.31,7.5,8
+102055,6,127.1,158.8,Female,69,Non-Hispanic White,0.31,9-11th grade,No,Not at all,112,89,47,23.9,8.5,8.5
+102057,5.4,108.2,175.1,Male,70,Non-Hispanic White,1.11,Less than 9th grade,No,Every day,115,107,39,7.21,8,8
+102058,5.6,108.3,155.2,Female,68,Non-Hispanic White,2.88,High school/GED,No,Every day,74,140,53,10.05,8,8
+102064,5.3,92.3,156.3,Female,35,Mexican American,1.44,Some college/AA,No,Not at all,111,118,58,9.7,10,10
+102073,5.4,103,173.5,Male,43,Non-Hispanic White,1.05,High school/GED,No,Every day,197,124,34,14.62,7,8
+102074,5.5,107.1,160.3,Female,35,Non-Hispanic Black,0.28,Some college/AA,Yes,Some days,44,81,81,8.16,8.5,10
+102078,6.3,90.3,176,Male,61,Non-Hispanic Black,0.98,Some college/AA,No,Some days,109,83,69,6.49,8,6
+102081,5.5,114.2,155.7,Female,49,Non-Hispanic White,1.27,High school/GED,Yes,Not at all,247,127,54,10.16,8,8
+102099,5.5,121.6,163.2,Female,32,Non-Hispanic White,1.91,High school/GED,No,Some days,97,77,55,9.75,8,8
+102101,4.9,109.8,178.7,Male,20,Mexican American,5,High school/GED,No,Not at all,38,62,49,19.92,6,7
+102128,5.3,67.2,178.4,Male,21,Non-Hispanic Black,2.13,Some college/AA,No,Not at all,32,60,66,5.57,9,9
+102131,4.7,92.1,163.9,Male,69,Non-Hispanic Asian,0.88,Some college/AA,No,Not at all,148,175,53,12.6,9,9
+102181,4.9,106.5,162.3,Female,43,Non-Hispanic Black,1.14,College graduate or above,No,Not at all,130,93,151,6.38,6.5,9
+102183,5.8,103.9,182.2,Male,68,Non-Hispanic White,5,Some college/AA,No,Not at all,150,85,40,23.41,9,8.5
+102198,6.1,117.8,155.4,Female,63,Mexican American,4.62,High school/GED,No,Not at all,164,95,47,35.58,7.5,9.5
+102201,5.2,79.5,172.4,Female,47,Non-Hispanic Black,0.6,High school/GED,No,Every day,114,94,55,2.55,4.5,9
+102204,5.7,103.3,170.9,Female,49,Non-Hispanic White,1.83,High school/GED,No,Every day,502,204,41,3.84,8.5,9
+102218,5,91.4,165.7,Female,48,Non-Hispanic Black,1.54,Some college/AA,Yes,Every day,73,199,58,5,9,7
+102219,5.5,94.4,174.7,Male,54,Non-Hispanic Black,2.22,Some college/AA,No,Every day,91,93,67,2.31,6,6
+102225,5.2,102.3,192.5,Male,41,Non-Hispanic White,5,College graduate or above,Yes,Not at all,94,99,42,5.68,8,9
+102240,5.7,121.1,178.4,Male,60,Non-Hispanic White,0,High school/GED,No,Every day,122,120,43,31.02,3,3
+102248,5.2,84.4,166.8,Male,48,Non-Hispanic Asian,3.38,College graduate or above,No,Some days,119,173,60,7.7,7,7
+102254,5.9,96.4,155.7,Female,38,Mexican American,0.6,High school/GED,Yes,Every day,90,142,87,8.39,9,9
+102260,6.2,92.4,163.4,Female,65,Non-Hispanic White,5,College graduate or above,Yes,Every day,126,109,49,13.87,6,7
+102283,5.4,103.3,158.5,Female,22,Non-Hispanic White,3.35,Some college/AA,Yes,Some days,48,122,45,10.8,6,6.5
+102306,5.4,104.7,170.1,Male,71,Other/Multi-Racial,1.7,College graduate or above,No,Some days,97,98,30,13.03,8,6
+102352,5.3,93.7,180.2,Male,31,Non-Hispanic White,1,High school/GED,No,Every day,70,155,41,6.37,9,8
+102362,5.5,111.2,179.3,Male,80,Non-Hispanic White,2.46,Some college/AA,No,Not at all,167,158,48,4.85,11,11
+102368,5.8,111.1,178.4,Male,67,Non-Hispanic White,5,College graduate or above,No,Not at all,110,90,50,14.38,8,8
+102381,5.3,117.4,184.6,Male,42,Non-Hispanic White,0.95,Some college/AA,No,Not at all,266,145,41,15.05,6.5,9.5
+102387,5.8,115.2,175.6,Male,68,Non-Hispanic White,1.24,High school/GED,No,Not at all,96,81,32,8.82,9,9
+102396,5.3,112,180.3,Male,45,Other/Multi-Racial,0.94,High school/GED,No,Not at all,87,103,35,99.78,10,9
+102457,4.8,97.3,172.1,Male,58,Non-Hispanic White,2.43,Some college/AA,No,Every day,134,147,45,7.62,7,7
+102466,5.3,88.2,195.8,Male,34,Non-Hispanic White,5,College graduate or above,Yes,Not at all,66,47,69,8.96,8,8
+102475,10.7,95.2,157.7,Male,38,Mexican American,0.49,Less than 9th grade,No,Every day,708,113,26,10.67,8,5
+102489,6.5,118,178.4,Male,73,Non-Hispanic White,5,College graduate or above,No,Not at all,65,125,60,12.14,5,5
+102492,5.3,100.4,182.7,Male,31,Non-Hispanic Black,5,Some college/AA,No,Some days,147,72,67,16.52,7,9
+102497,5.5,98.9,166.2,Male,75,Non-Hispanic White,3.04,High school/GED,No,Not at all,83,102,35,4.84,8,8
+102501,6.1,122.9,173.4,Male,45,Non-Hispanic White,1.67,Some college/AA,No,Every day,123,93,28,15.16,6.5,9
+102520,6.3,106.8,166.5,Male,63,Other Hispanic,5,College graduate or above,Yes,Not at all,252,96,43,8.47,8,9
+102524,5.6,106.5,170,Male,63,Mexican American,1.52,Less than 9th grade,No,Not at all,165,116,37,8.13,8.5,7
+102544,5.8,116.6,172.6,Male,80,Non-Hispanic White,1.46,9-11th grade,No,Not at all,111,67,33,5.97,6,6
+102551,5.9,112.1,168.4,Female,58,Non-Hispanic Black,0,Some college/AA,Yes,Every day,84,152,50,7.73,9,8
+102581,6.4,74.7,168.2,Male,50,Non-Hispanic Black,5,Some college/AA,Yes,Every day,45,134,48,3.87,6.5,6.5
+102586,5.3,96,163,Male,52,Mexican American,2,Less than 9th grade,No,Not at all,73,176,47,7.11,7.5,10
+102606,5.8,77.7,164.9,Male,65,Non-Hispanic Black,2.82,High school/GED,No,Some days,24,106,76,13.82,8,10
+102621,5.2,83.5,162.4,Female,32,Non-Hispanic Black,1.18,9-11th grade,No,Every day,32,91,72,3.21,8,9
+102622,5.5,108.8,178.4,Male,46,Non-Hispanic White,1.82,Some college/AA,No,Every day,98,140,46,8.52,7,7
+102629,5.7,86.5,152.7,Female,73,Other Hispanic,1.72,Less than 9th grade,No,Not at all,58,98,70,5.45,6,6
+102634,6.1,118.9,177.9,Male,80,Non-Hispanic White,4.43,Some college/AA,No,Not at all,192,126,48,13.11,7,7
+102644,6,102.9,174.9,Male,53,Non-Hispanic White,4.81,High school/GED,No,Not at all,156,139,41,8.76,7,6
+102674,5.4,103.5,163.6,Male,26,Non-Hispanic White,2.46,Some college/AA,Yes,Not at all,96,76,42,13.99,7,8
+102685,5.6,111.8,180.8,Male,39,Non-Hispanic White,0.52,Some college/AA,No,Some days,253,138,45,10.04,9,8.5
+102689,5.4,64,172.5,Male,24,Non-Hispanic White,1.2,Some college/AA,No,Not at all,22,88,48,2.19,5.5,7
+102697,6,84.5,178.1,Male,75,Non-Hispanic Black,5,High school/GED,Yes,Not at all,33,111,63,4.48,6,5
+102706,5.6,91.9,174.5,Male,40,Non-Hispanic Asian,4.78,College graduate or above,Yes,Some days,224,158,38,11.71,9,8.5
+102713,5.2,80.9,171,Female,23,Non-Hispanic Black,0.37,Some college/AA,No,Not at all,56,58,58,13.07,10,8
+102724,6.3,106.6,167.4,Male,43,Mexican American,2.47,9-11th grade,No,Not at all,101,133,38,20.52,6.5,9
+102726,4.9,112.8,178.4,Male,62,Non-Hispanic Black,0.94,High school/GED,No,Some days,92,115,34,9.64,8,8
+102747,5.4,91,166.7,Female,57,Non-Hispanic White,1.71,Some college/AA,No,Not at all,49,139,71,3.86,9,9
+102761,5.4,80.4,165.3,Male,25,Non-Hispanic Black,1.43,Some college/AA,No,Not at all,47,159,57,6.51,8,7.5
+102781,5.2,78,182.9,Male,24,Mexican American,5,9-11th grade,No,Not at all,175,65,29,5.15,7,8
+102789,5.8,115.8,171,Male,61,Mexican American,1.19,Less than 9th grade,No,Not at all,97,133,58,15.77,7.5,7
+102791,5.6,106,184.3,Male,61,Non-Hispanic Black,0.99,High school/GED,No,Not at all,74,135,69,18.46,6,6
+102808,5.7,109.4,165,Male,62,Non-Hispanic Black,1.84,9-11th grade,No,Every day,102,126,51,17.85,9.5,9.5
+102832,5.1,86.2,173.9,Male,29,Non-Hispanic White,0.65,High school/GED,No,Not at all,38,88,52,3.23,7.5,10
+102834,6.2,122.1,181.1,Male,57,Non-Hispanic Black,4.25,High school/GED,No,Some days,43,140,75,42.44,7,6
+102836,7.4,109.6,165.1,Male,40,Mexican American,1.45,9-11th grade,No,Not at all,55,97,42,57.52,6.5,8
+102845,5.1,91.6,170.9,Male,63,Non-Hispanic Black,1.32,Some college/AA,No,Not at all,104,26,35,7.77,7,9
+102865,6.6,144.3,175,Female,44,Non-Hispanic White,5,College graduate or above,Yes,Not at all,195,123,41,34.3,7.5,8
+102890,4.4,105.2,175.5,Male,80,Non-Hispanic Black,5,Some college/AA,No,Not at all,49,51,55,8.22,8,9
+102893,5.7,95.4,164.6,Female,44,Non-Hispanic White,1.57,Some college/AA,Yes,Every day,143,120,47,7.84,7,7
+102908,13.2,96,172.4,Male,51,Non-Hispanic White,2.24,High school/GED,No,Every day,183,131,41,3.49,9,9
+102916,6.1,94.4,156.5,Male,66,Other Hispanic,2.77,Some college/AA,No,Not at all,159,58,55,12.55,8.5,9.5
+102918,5.2,80.4,169.3,Male,33,Non-Hispanic White,2.04,High school/GED,No,Every day,52,87,49,3.03,9,9.5
+102920,5.2,99.3,159.6,Female,62,Other Hispanic,5,Some college/AA,No,Not at all,101,139,66,21.67,7,8
+102947,5.8,94,170.4,Male,75,Non-Hispanic Black,4.28,College graduate or above,No,Not at all,35,64,70,0.71,7,8
+102948,5.2,69.7,162,Female,31,Non-Hispanic White,5,Some college/AA,No,Not at all,52,124,76,5.42,8.5,9.5
+102956,5.4,122,175.8,Male,38,Non-Hispanic White,1.56,Some college/AA,No,Every day,269,84,34,105.73,8,7
