@@ -26,6 +26,8 @@ library(lmtest)
 library(sandwich)
 library(moments)
 library(tseries)
+library(gridExtra)
+library(stargazer)
 
 ```
 
@@ -60,18 +62,6 @@ nhanes_clean$ethnicity <- factor(
 )
 ```
 
-```{r}
-nhanes_clean$smoking <- factor(
-  nhanes_clean$smoking,
-  levels = c(
-    "Not at all", 
-    "Every day",
-    "Some days"
-  )
-)
-
-```
-
 # 3. Data Splitting
 
 ```{r setup, include=FALSE}
@@ -79,6 +69,20 @@ set.seed(123)
 train_index <- createDataPartition(nhanes_clean$a1c, p = 0.3, list = FALSE)
 exploratory_df <- nhanes_clean[train_index, ]
 confirmatory_df <- nhanes_clean[-train_index, ]
+```
+
+```{r}
+
+data.frame(
+  dataset = c("Exploratory", "Confirmatory"),
+  n_obs = c(nrow(exploratory_df), nrow(confirmatory_df)),
+  mean_a1c = c(mean(exploratory_df$a1c), mean(confirmatory_df$a1c)),
+  mean_age = c(mean(exploratory_df$age), mean(confirmatory_df$age)),
+  mean_waist = c(mean(exploratory_df$waist_cm), mean(confirmatory_df$waist_cm)),
+  mean_height = c(mean(exploratory_df$height_cm), mean(confirmatory_df$height_cm)),
+  mean_triglycerides = c(mean(exploratory_df$triglycerides), mean(confirmatory_df$triglycerides)),
+  mean_insulin = c(mean(exploratory_df$insulin), mean(confirmatory_df$insulin))
+)
 ```
 
 #### 4. Model Specification
@@ -92,82 +96,171 @@ No Perfect Collinearity
 E[X\^T X ] is invertible
 
 ```{r}
-model_1 <- lm(a1c ~ waist_height_ratio, data = exploratory_df)
+model_1 <- lm(log(a1c) ~ waist_height_ratio, data = exploratory_df)
 summary(model_1)
 ```
 
 ```{r}
-ggplot(nhanes_clean, aes(x = waist_height_ratio, y = a1c)) +
+ggplot(exploratory_df, aes(x = waist_height_ratio, y = a1c)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = TRUE) +
   labs(
     x = "Waist to Height Ratio",
     y = "A1C (%)",
-    title = "Figure 1:Relationship Between Waist/Height Ratio and A1C"
-  )
-```
-
-```         
+    title = "Figure 1:Relationship Between Waist/Height Ratio and A1C")
 ```
 
 ```{r}
-model_exp <- lm(
+model_2 <- lm(
   log(a1c) ~ waist_height_ratio +
     age +
     gender +
     ethnicity +
     income_poverty_ratio +
-    education_level +
     family_history +
-    smoking +
-    sleep_hours_weekdays +
-    sleep_hours_weekends +
     triglycerides +
-    ldl +
-    hdl +
     insulin,
   data = exploratory_df
 )
-
-summary(model_exp)
+summary(model_2)
 ```
 
 ```{r}
-plot(model_exp, which = 1) 
+exploratory_df %>%
+  mutate(
+    model2_preds = predict(model_2),
+    model2_resids = resid(model_2)
+  ) %>%
+  ggplot(aes(x = model2_preds, y = model2_resids)) +
+  geom_point() +
+  stat_smooth() 
 ```
 
-`{# Robust errors} coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))`
+## **Modeling**
+
+In order to examine the relationship between A1C and different demographic and health indicators, we developed two linear regression on our exploratory dataset (30% of the sample: 603 observations). After, we applied the final features to the confirmatory dataset (70% of the sample, 1402 observations) to guarantee consistent description patterns. 
+
+Initial exploratory analysis of the important variables, we found that the raw waist-to-height ratio points are moderately normal while the A1C values were positively skewed (figure 1). Since, this skewness can impact a model's normality assumptions and inflate residual variance, we decided to replace A1C with its logarithm.
 
 ```{r}
-jarque.bera.test(residuals(model_exp))
+confirmatory_df %>%
+  select(a1c) %>%
+  pivot_longer(cols = everything(), names_to = "variable", values_to = "value") %>%
+  ggplot(aes(x = value)) +
+  geom_histogram(fill = "skyblue", color = "black", bins = 30) +
+  facet_wrap(~ variable, scales = "free", ncol = 3) +
+  labs(title = "Histograms of Key Variables", x = "", y = "Frequency") +
+  theme_minimal()
+```
+
+**Model 1:**
+
+$$
+\log(\text{a1c}_i) = \beta_0 + \beta_1 \cdot \text{waist_height_ratio}_i + \varepsilon_i
+$$
+
+We began by fitting the univariate model where we can quantify the relationship between the waist-to-height ratio and log(A1C) without any other covariates. It addresses the following question: “What is the relationship between A1C levels and Waist_Height_Ratio?"
+
+**Model 2:**
+
+$$
+\begin{aligned}
+\log(\text{A1C}_i) =\ & \beta_0 + \beta_1 \cdot \text{Waist_Height_Ratio}_i + \beta_2 \cdot \text{Age}_i + \beta_3 \cdot \text{Gender}_i \\
+& + \beta_4 \cdot \text{Ethnicity}_i + \beta_5 \cdot \text{Income_Poverty_Ratio}_i + \beta_6 \cdot \text{Family_History}_i \\
+& + \beta_7 \cdot \text{Triglycerides}_i + \beta_8 \cdot \text{Insulin}_i + \varepsilon_i
+\end{aligned}
+$$
+
+The expanded second model includes the joint distribution of demographic (age, gender, ethnicity), socioeconomic (income-to-poverty ratio), and health-related values (family history, triglycerides, insulin) together with the waist-to-height ratio.
+
+## Model Assumptions
+
+1.  IID
+
+2.  Linear Conditional Expectation
+
+3.  No Perfect Collinearity
+
+4.  Homoscedastic Errors
+
+5.  Normally Distributed Errors
+
+```{r}
+exploratory_df <- exploratory_df %>%
+  mutate(
+    model2_resids = resid(model_2)
+  )
+
+p1 <- ggplot(exploratory_df, aes(x = a1c)) +
+  geom_histogram(binwidth = 0.2, fill = "skyblue", color = "black") +
+  ggtitle("Histogram of A1C") +
+  theme_minimal()
+
+# Histogram for residuals
+p2 <- ggplot(exploratory_df, aes(x = model2_resids)) +
+  geom_histogram(binwidth = 0.2, fill = "tomato", color = "black") +
+  ggtitle("Histogram of Model Residuals") +
+  theme_minimal()
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+We can see that they are positively skewed
+
+1.  **Linearity**
+
+```{r}
+# Lineriaty test
+# Residuals vs Fitted Plot
+plot(model_2, which = 1)
 ```
 
 ```{r}
-vif_values <- vif(model_exp)
-vif_values
-```
-
-`{plot(model_exp, which = 1)}`
-
-```{r}
-bptest(model_exp)
+crPlots(model_2)
 ```
 
 ```{r}
-coeftest(model_exp, vcov = vcovHC(model_exp, type = "HC1"))
+# Normality
+
+plot(model_2, which = 2)
+```
+
+**No Perfect Collinearity**
+
+```{r}
+vif(model_2)
+vif(model_2) > 4
+```
+
+Homoscedasticity
+
+```{r}
+plot(model_one, which = 3)
+```
+
+Breusch Pagan test says we have homoscedasticity. The variance of errors in a regression model is constant across all observations
+
+```{r}
+bptest(model_2)
+```
+
+5.  **Normality**
+
+    major departures in as predictions grow.
+
+```{r}
+plot(model_one, which = 2)
+```
+
+```{r}
+kurtosis(model_2$residuals) - 3
 ```
 
 # 5. Model Assumptions
 
-```{r model-assumptions, fig.width=8, fig.height=8}
-# Plot all diagnostics in a 2x2 grid
-par(mfrow = c(2, 2))
-plot(model_exp)
-```
-
 ```{r}
 # Extract residuals
-residuals_exp <- resid(model_exp)
+residuals_exp <- resid(model_2)
 
 # Plot histogram
 hist(residuals_exp,
@@ -177,12 +270,9 @@ hist(residuals_exp,
      xlab = "Residuals")
 ```
 
-```         
-```
-
 ```{r}
 # Multicolinearity
-vif(model_exp)
+vif(model_2)
 ```
 
 # 6. Confirmation Model
@@ -190,10 +280,7 @@ vif(model_exp)
 # 7. Model Comparison
 
 ```{r}
-library(lmtest)
-library(sandwich)
-library(stargazer)
-
+# Work on Confirmatory Dataset
 # Model 1: Univariate (waist-height ratio only)
 mod1 <- lm(log(a1c) ~ waist_height_ratio, data = confirmatory_df)
 
@@ -203,48 +290,31 @@ mod2 <- lm(log(a1c) ~ waist_height_ratio +
              gender +
              ethnicity +
              income_poverty_ratio +
-             education_level +
              family_history +
-             smoking +
-             sleep_hours_weekdays +
-             sleep_hours_weekends +
              triglycerides +
-             ldl +
-             hdl +
              insulin,
            data = confirmatory_df)
+```
 
-# Compute robust standard errors (HC1)
-robust1 <- vcovHC(mod1, type = "HC1")
-robust2 <- vcovHC(mod2, type = "HC1")
-
-# Extract robust SEs
-robust_se1 <- sqrt(diag(robust1))
-robust_se2 <- sqrt(diag(robust2))
-
-# Create table with Stargazer
+```{r}
 stargazer(
   mod1, mod2,
   type = "text",
-  title = "Final Regression Models of log(A1C) with Robust Standard Errors",
-  dep.var.labels = "log(A1C)",
-  covariate.labels = c(
+  title = "Final Regression Models of A1C",
+  dep.var.labels = "A1C",
+  covariate.labels = c( 
     "Waist-Height Ratio", 
     "Age", 
-    "Female",
+    "Male",
     "Mexican American", "Other Hispanic", "Non-Hispanic Black", 
     "Non-Hispanic Asian", "Other/Multi-Racial",
     "Income-to-Poverty Ratio", 
-    "Education: 9-11th Grade", "Education: High School/GED", 
-    "Education: Some College/AA", "Education: College Graduate",
     "Family History: Yes",
-    "Smoking: Every Day", "Smoking: Some Days",
-    "Sleep Hours (Weekdays)", "Sleep Hours (Weekends)",
-    "Triglycerides", "LDL", "HDL", "Insulin"
+    "Triglycerides", 
+    "Insulin"
   ),
-  se = list(robust_se1, robust_se2),
+  omit = "Constant",      
   omit.stat = c("f", "ser"), 
   digits = 3
 )
-
 ```
