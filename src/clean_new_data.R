@@ -22,7 +22,6 @@ write_csv(nhanes_merged, "new_data/interim/nhanes_merged.csv")
 # Clean & rename columns
 nhanes_clean <- nhanes_merged %>%
   select(
-    SEQN,
     a1c = LBXGH,
     waist_cm = BMXWAIST,
     height_cm = BMXHT,
@@ -35,6 +34,7 @@ nhanes_clean <- nhanes_merged %>%
     triglycerides = LBXTR,
     insulin = LBXIN  
   ) %>%
+  filter(age >= 18) %>%
   filter(!is.na(a1c)) %>%
   filter(pregnancy != 1 | is.na(pregnancy)) %>%
   select(-pregnancy) %>%
